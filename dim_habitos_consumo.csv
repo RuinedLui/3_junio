@@ -1,0 +1,529 @@
+﻿ConsumoID,Frecuencia_Consumo,Lugar_Compra_Habitual,Compania_Partidos,Gasto_Snacks_Partido
+1,Varias veces al mes,Aplicación de delivery,Amigos,Q25 - Q50
+2,1 a 2 veces por semana,Supermercado,Solo,Q51 - Q100
+3,Varias veces al mes,Kiosco escolar/universitario,Familia,Q51 - Q100
+4,3 a 5 veces por semana,Gasolinera,Solo,Q25 - Q50
+5,Varias veces al mes,Tienda de barrio,Amigos,Q51 - Q100
+6,1 a 2 veces por semana,Tienda de barrio,Solo,Menos de Q25
+7,3 a 5 veces por semana,Aplicación de delivery,Solo,Q51 - Q100
+8,3 a 5 veces por semana,Tienda de barrio,Amigos,Q25 - Q50
+9,Todos los días,Kiosco escolar/universitario,Familia,Q25 - Q50
+10,Varias veces al mes,Tienda de barrio,Familia,Q51 - Q100
+11,Todos los días,Otro,Familia,Menos de Q25
+12,3 a 5 veces por semana,Tienda de barrio,Compañeros de trabajo,Q51 - Q100
+13,3 a 5 veces por semana,Supermercado,Familia,Q101 - Q150
+14,3 a 5 veces por semana,Otro,Amigos,Q51 - Q100
+15,1 a 2 veces por semana,Tienda de barrio,Compañeros de trabajo,Q51 - Q100
+16,1 a 2 veces por semana,Tienda de barrio,Amigos,Q25 - Q50
+17,Todos los días,Supermercado,Familia,Más de Q150
+18,1 a 2 veces por semana,Kiosco escolar/universitario,Amigos,Q101 - Q150
+19,1 a 2 veces por semana,Supermercado,Familia,Q25 - Q50
+20,Varias veces al mes,Gasolinera,Amigos,Q51 - Q100
+21,1 a 2 veces por semana,Supermercado,Amigos,Q25 - Q50
+22,Todos los días,Tienda de barrio,Familia,Q51 - Q100
+23,Todos los días,Tienda de barrio,Otro,Q25 - Q50
+24,Todos los días,Otro,Amigos,Q101 - Q150
+25,3 a 5 veces por semana,Tienda de barrio,Solo,Q51 - Q100
+26,Todos los días,Supermercado,Familia,Menos de Q25
+27,1 a 2 veces por semana,Aplicación de delivery,Amigos,Menos de Q25
+28,Todos los días,Gasolinera,Amigos,Q51 - Q100
+29,Todos los días,Tienda de barrio,Amigos,Q25 - Q50
+30,1 a 2 veces por semana,Tienda de barrio,Familia,Q51 - Q100
+31,Todos los días,Otro,Amigos,Q51 - Q100
+32,Varias veces al mes,Supermercado,Familia,Q101 - Q150
+33,3 a 5 veces por semana,Supermercado,Solo,Q51 - Q100
+34,Rara vez,Aplicación de delivery,Otro,Q51 - Q100
+35,Todos los días,Gasolinera,Compañeros de trabajo,Más de Q150
+36,3 a 5 veces por semana,No especificado,Familia,Menos de Q25
+37,3 a 5 veces por semana,Supermercado,Otro,Q101 - Q150
+38,1 a 2 veces por semana,Aplicación de delivery,Amigos,Q51 - Q100
+39,Todos los días,Tienda de barrio,Amigos,Menos de Q25
+40,1 a 2 veces por semana,Supermercado,Amigos,Q51 - Q100
+41,Varias veces al mes,Supermercado,Familia,Q25 - Q50
+42,3 a 5 veces por semana,Tienda de barrio,Solo,Q25 - Q50
+43,Todos los días,Tienda de barrio,Familia,Q25 - Q50
+44,1 a 2 veces por semana,Aplicación de delivery,Otro,Q101 - Q150
+45,Rara vez,Otro,Familia,Menos de Q25
+46,1 a 2 veces por semana,Tienda de barrio,Familia,Más de Q150
+47,Rara vez,Gasolinera,Compañeros de trabajo,Q51 - Q100
+48,3 a 5 veces por semana,Tienda de barrio,Familia,Q51 - Q100
+49,Varias veces al mes,Gasolinera,Familia,Q51 - Q100
+50,1 a 2 veces por semana,Tienda de barrio,Familia,Q25 - Q50
+51,1 a 2 veces por semana,Otro,Amigos,Menos de Q25
+52,3 a 5 veces por semana,Otro,Familia,Q101 - Q150
+53,3 a 5 veces por semana,Tienda de barrio,Amigos,Q51 - Q100
+54,3 a 5 veces por semana,No especificado,Compañeros de trabajo,Menos de Q25
+55,Varias veces al mes,Gasolinera,Compañeros de trabajo,Q101 - Q150
+56,1 a 2 veces por semana,Supermercado,Compañeros de trabajo,Q51 - Q100
+57,3 a 5 veces por semana,Kiosco escolar/universitario,Familia,Q25 - Q50
+58,Varias veces al mes,Tienda de barrio,Solo,Q25 - Q50
+59,1 a 2 veces por semana,Kiosco escolar/universitario,Otro,Q51 - Q100
+60,3 a 5 veces por semana,Supermercado,Amigos,Q51 - Q100
+61,1 a 2 veces por semana,Gasolinera,Amigos,Q25 - Q50
+62,3 a 5 veces por semana,Supermercado,Familia,Menos de Q25
+63,3 a 5 veces por semana,Tienda de barrio,Familia,Más de Q150
+64,Varias veces al mes,Tienda de barrio,Amigos,Q25 - Q50
+65,3 a 5 veces por semana,Supermercado,Familia,Q25 - Q50
+66,1 a 2 veces por semana,Tienda de barrio,Otro,Menos de Q25
+67,1 a 2 veces por semana,Supermercado,Familia,Menos de Q25
+68,1 a 2 veces por semana,Supermercado,Amigos,Menos de Q25
+69,Varias veces al mes,Kiosco escolar/universitario,Familia,Menos de Q25
+70,Rara vez,Gasolinera,Familia,Q51 - Q100
+71,Varias veces al mes,Supermercado,Compañeros de trabajo,Más de Q150
+72,1 a 2 veces por semana,Tienda de barrio,Otro,Q51 - Q100
+73,1 a 2 veces por semana,Aplicación de delivery,Amigos,Más de Q150
+74,Todos los días,Aplicación de delivery,Familia,Q25 - Q50
+75,Todos los días,Gasolinera,Compañeros de trabajo,Q25 - Q50
+76,Varias veces al mes,Otro,Familia,Más de Q150
+77,Todos los días,Aplicación de delivery,Amigos,Q51 - Q100
+78,1 a 2 veces por semana,Tienda de barrio,Amigos,Q51 - Q100
+79,3 a 5 veces por semana,Tienda de barrio,Compañeros de trabajo,Menos de Q25
+80,Todos los días,Tienda de barrio,Amigos,Q51 - Q100
+81,3 a 5 veces por semana,Gasolinera,Familia,Más de Q150
+82,Todos los días,Supermercado,Familia,Q51 - Q100
+83,3 a 5 veces por semana,Gasolinera,Familia,Q101 - Q150
+84,Todos los días,Supermercado,Amigos,Q25 - Q50
+85,1 a 2 veces por semana,Gasolinera,Familia,Q25 - Q50
+86,Varias veces al mes,Supermercado,Amigos,Q101 - Q150
+87,Varias veces al mes,Kiosco escolar/universitario,Amigos,Q101 - Q150
+88,Todos los días,Kiosco escolar/universitario,Amigos,Q101 - Q150
+89,Todos los días,Kiosco escolar/universitario,Familia,Q51 - Q100
+90,3 a 5 veces por semana,Aplicación de delivery,Familia,Q51 - Q100
+91,1 a 2 veces por semana,Tienda de barrio,Solo,Q25 - Q50
+92,Varias veces al mes,Supermercado,Solo,Q25 - Q50
+93,3 a 5 veces por semana,Supermercado,Familia,Q51 - Q100
+94,Todos los días,Otro,Familia,Q101 - Q150
+95,1 a 2 veces por semana,Aplicación de delivery,Familia,Q25 - Q50
+96,Varias veces al mes,Supermercado,Compañeros de trabajo,Q51 - Q100
+97,Varias veces al mes,Kiosco escolar/universitario,Familia,Q25 - Q50
+98,3 a 5 veces por semana,Supermercado,Compañeros de trabajo,Q51 - Q100
+99,Varias veces al mes,Otro,Familia,Q25 - Q50
+100,1 a 2 veces por semana,Otro,Amigos,Más de Q150
+101,Varias veces al mes,Supermercado,Amigos,Menos de Q25
+102,3 a 5 veces por semana,Aplicación de delivery,Compañeros de trabajo,Q25 - Q50
+103,1 a 2 veces por semana,Supermercado,Amigos,Q101 - Q150
+104,1 a 2 veces por semana,Aplicación de delivery,Familia,Q101 - Q150
+105,1 a 2 veces por semana,Tienda de barrio,Otro,Q25 - Q50
+106,1 a 2 veces por semana,Supermercado,Otro,Q25 - Q50
+107,Rara vez,Tienda de barrio,Amigos,Q51 - Q100
+108,1 a 2 veces por semana,Supermercado,Familia,Q101 - Q150
+109,1 a 2 veces por semana,Gasolinera,Familia,Q101 - Q150
+110,Varias veces al mes,Aplicación de delivery,Solo,Q51 - Q100
+111,Rara vez,No especificado,Amigos,Más de Q150
+112,1 a 2 veces por semana,Supermercado,Familia,Q51 - Q100
+113,Todos los días,Kiosco escolar/universitario,Compañeros de trabajo,Q51 - Q100
+114,Varias veces al mes,Supermercado,Amigos,Q25 - Q50
+115,1 a 2 veces por semana,Gasolinera,Solo,Q51 - Q100
+116,1 a 2 veces por semana,Supermercado,Otro,Q51 - Q100
+117,Rara vez,Gasolinera,Familia,Q25 - Q50
+118,3 a 5 veces por semana,Supermercado,Familia,Más de Q150
+119,Todos los días,Gasolinera,Familia,Menos de Q25
+120,1 a 2 veces por semana,Otro,Compañeros de trabajo,Q25 - Q50
+121,3 a 5 veces por semana,Tienda de barrio,Amigos,Q101 - Q150
+122,Varias veces al mes,Supermercado,Solo,Menos de Q25
+123,1 a 2 veces por semana,Gasolinera,Amigos,Q101 - Q150
+124,Varias veces al mes,Gasolinera,Familia,Más de Q150
+125,Rara vez,No especificado,Compañeros de trabajo,Q51 - Q100
+126,3 a 5 veces por semana,Supermercado,Amigos,Menos de Q25
+127,1 a 2 veces por semana,Aplicación de delivery,Amigos,Q101 - Q150
+128,3 a 5 veces por semana,Tienda de barrio,Familia,Q25 - Q50
+129,1 a 2 veces por semana,Gasolinera,Familia,Menos de Q25
+130,Varias veces al mes,Tienda de barrio,Otro,Más de Q150
+131,Rara vez,Supermercado,Amigos,Q25 - Q50
+132,Rara vez,Tienda de barrio,Amigos,Q25 - Q50
+133,1 a 2 veces por semana,Supermercado,Compañeros de trabajo,Q25 - Q50
+134,1 a 2 veces por semana,Aplicación de delivery,Familia,Q51 - Q100
+135,Todos los días,Tienda de barrio,Familia,Menos de Q25
+136,Todos los días,Tienda de barrio,Familia,Más de Q150
+137,1 a 2 veces por semana,Gasolinera,Familia,Q51 - Q100
+138,3 a 5 veces por semana,Tienda de barrio,Familia,Q101 - Q150
+139,1 a 2 veces por semana,Kiosco escolar/universitario,Amigos,Menos de Q25
+140,Varias veces al mes,Gasolinera,Solo,Más de Q150
+141,3 a 5 veces por semana,Otro,Familia,Q25 - Q50
+142,3 a 5 veces por semana,Otro,Familia,Más de Q150
+143,Todos los días,Supermercado,Amigos,Q101 - Q150
+144,3 a 5 veces por semana,Supermercado,Amigos,Q101 - Q150
+145,Todos los días,Gasolinera,Solo,Q25 - Q50
+146,Todos los días,Supermercado,Familia,Q101 - Q150
+147,Todos los días,Kiosco escolar/universitario,Solo,Q25 - Q50
+148,Varias veces al mes,Tienda de barrio,Amigos,Más de Q150
+149,Varias veces al mes,Aplicación de delivery,Compañeros de trabajo,Q25 - Q50
+150,Varias veces al mes,Aplicación de delivery,Compañeros de trabajo,Más de Q150
+151,Todos los días,Supermercado,Amigos,Q51 - Q100
+152,3 a 5 veces por semana,Gasolinera,Otro,Q51 - Q100
+153,Todos los días,Supermercado,Amigos,Menos de Q25
+154,3 a 5 veces por semana,Aplicación de delivery,Familia,Q25 - Q50
+155,3 a 5 veces por semana,Aplicación de delivery,Familia,Menos de Q25
+156,Todos los días,Tienda de barrio,Compañeros de trabajo,Q51 - Q100
+157,Varias veces al mes,Otro,Familia,Q51 - Q100
+158,Varias veces al mes,Tienda de barrio,Familia,Menos de Q25
+159,1 a 2 veces por semana,Gasolinera,Familia,Más de Q150
+160,3 a 5 veces por semana,Tienda de barrio,Amigos,Menos de Q25
+161,3 a 5 veces por semana,Supermercado,Amigos,Q25 - Q50
+162,1 a 2 veces por semana,Tienda de barrio,Compañeros de trabajo,Q101 - Q150
+163,1 a 2 veces por semana,Otro,Otro,Q25 - Q50
+164,1 a 2 veces por semana,Gasolinera,Amigos,Menos de Q25
+165,Rara vez,Supermercado,Amigos,Q51 - Q100
+166,Varias veces al mes,Gasolinera,Amigos,Q25 - Q50
+167,3 a 5 veces por semana,Gasolinera,Familia,Q51 - Q100
+168,3 a 5 veces por semana,Kiosco escolar/universitario,Familia,Q51 - Q100
+169,1 a 2 veces por semana,Supermercado,Solo,Q25 - Q50
+170,Varias veces al mes,Tienda de barrio,Otro,Q25 - Q50
+171,Varias veces al mes,Tienda de barrio,Compañeros de trabajo,Menos de Q25
+172,Varias veces al mes,Aplicación de delivery,Otro,Q51 - Q100
+173,Todos los días,Gasolinera,Amigos,Más de Q150
+174,Rara vez,Tienda de barrio,Familia,Q25 - Q50
+175,Varias veces al mes,Tienda de barrio,Amigos,Q101 - Q150
+176,Varias veces al mes,Supermercado,Otro,Q25 - Q50
+177,Todos los días,Aplicación de delivery,Amigos,Más de Q150
+178,Varias veces al mes,Supermercado,Familia,Menos de Q25
+179,1 a 2 veces por semana,Otro,Familia,Q51 - Q100
+180,Todos los días,Gasolinera,Amigos,Q25 - Q50
+181,Rara vez,Supermercado,Familia,Q51 - Q100
+182,Varias veces al mes,Tienda de barrio,Familia,Q25 - Q50
+183,Varias veces al mes,Kiosco escolar/universitario,Otro,Q25 - Q50
+184,1 a 2 veces por semana,Otro,Familia,Q25 - Q50
+185,Varias veces al mes,Otro,Amigos,Q51 - Q100
+186,Rara vez,Tienda de barrio,Solo,Q51 - Q100
+187,Todos los días,Gasolinera,Familia,Q51 - Q100
+188,Rara vez,Supermercado,Solo,Q101 - Q150
+189,1 a 2 veces por semana,Tienda de barrio,Amigos,Menos de Q25
+190,Varias veces al mes,Gasolinera,Familia,Menos de Q25
+191,Rara vez,Kiosco escolar/universitario,Solo,Q51 - Q100
+192,Todos los días,Gasolinera,Familia,Q101 - Q150
+193,3 a 5 veces por semana,Aplicación de delivery,Amigos,Q51 - Q100
+194,Todos los días,Otro,Amigos,Q25 - Q50
+195,1 a 2 veces por semana,Aplicación de delivery,Solo,Q25 - Q50
+196,3 a 5 veces por semana,Otro,Familia,Q51 - Q100
+197,1 a 2 veces por semana,Kiosco escolar/universitario,Solo,Q25 - Q50
+198,Rara vez,Aplicación de delivery,Amigos,Q25 - Q50
+199,Rara vez,Gasolinera,Familia,Menos de Q25
+200,1 a 2 veces por semana,Tienda de barrio,Familia,Menos de Q25
+201,Varias veces al mes,Otro,Amigos,Q25 - Q50
+202,Todos los días,Kiosco escolar/universitario,Amigos,Q25 - Q50
+203,Todos los días,Supermercado,Familia,Q25 - Q50
+204,3 a 5 veces por semana,Kiosco escolar/universitario,Amigos,Q51 - Q100
+205,Rara vez,Supermercado,Compañeros de trabajo,Más de Q150
+206,Todos los días,Gasolinera,Familia,Q25 - Q50
+207,Todos los días,Supermercado,Compañeros de trabajo,Menos de Q25
+208,1 a 2 veces por semana,Gasolinera,Amigos,Q51 - Q100
+209,1 a 2 veces por semana,Tienda de barrio,Amigos,Q101 - Q150
+210,Varias veces al mes,Gasolinera,Solo,Q101 - Q150
+211,3 a 5 veces por semana,Tienda de barrio,Solo,Menos de Q25
+212,1 a 2 veces por semana,Gasolinera,Amigos,Más de Q150
+213,Todos los días,Tienda de barrio,Solo,Q51 - Q100
+214,1 a 2 veces por semana,Tienda de barrio,Solo,Q101 - Q150
+215,Varias veces al mes,Tienda de barrio,Solo,Q51 - Q100
+216,1 a 2 veces por semana,Otro,Amigos,Q25 - Q50
+217,3 a 5 veces por semana,Gasolinera,Amigos,Q51 - Q100
+218,Varias veces al mes,Supermercado,Compañeros de trabajo,Q25 - Q50
+219,Varias veces al mes,Aplicación de delivery,Compañeros de trabajo,Q101 - Q150
+220,1 a 2 veces por semana,Otro,Familia,Menos de Q25
+221,3 a 5 veces por semana,Supermercado,Compañeros de trabajo,Q101 - Q150
+222,Rara vez,Aplicación de delivery,Familia,Q25 - Q50
+223,Varias veces al mes,Aplicación de delivery,Familia,Q51 - Q100
+224,Rara vez,Supermercado,Familia,Q25 - Q50
+225,Varias veces al mes,Aplicación de delivery,Amigos,Q51 - Q100
+226,3 a 5 veces por semana,No especificado,Otro,Menos de Q25
+227,3 a 5 veces por semana,Gasolinera,Amigos,Más de Q150
+228,Todos los días,Kiosco escolar/universitario,Amigos,Q51 - Q100
+229,1 a 2 veces por semana,Kiosco escolar/universitario,Familia,Q51 - Q100
+230,3 a 5 veces por semana,Gasolinera,Familia,Q25 - Q50
+231,Rara vez,Gasolinera,Otro,Menos de Q25
+232,1 a 2 veces por semana,Supermercado,Compañeros de trabajo,Menos de Q25
+233,1 a 2 veces por semana,Tienda de barrio,Solo,Q51 - Q100
+234,1 a 2 veces por semana,Tienda de barrio,Familia,Q101 - Q150
+235,3 a 5 veces por semana,Gasolinera,Familia,Menos de Q25
+236,Rara vez,Tienda de barrio,Otro,Q25 - Q50
+237,Rara vez,Otro,Amigos,Q51 - Q100
+238,Todos los días,Otro,Familia,Q25 - Q50
+239,Todos los días,Kiosco escolar/universitario,Otro,Q51 - Q100
+240,Rara vez,Supermercado,Amigos,Q101 - Q150
+241,Varias veces al mes,Supermercado,Familia,Q51 - Q100
+242,Varias veces al mes,Otro,Amigos,Q101 - Q150
+243,Todos los días,Gasolinera,Amigos,Q101 - Q150
+244,Todos los días,Tienda de barrio,Familia,Q101 - Q150
+245,3 a 5 veces por semana,Tienda de barrio,Otro,Menos de Q25
+246,3 a 5 veces por semana,Aplicación de delivery,Amigos,Menos de Q25
+247,Varias veces al mes,Kiosco escolar/universitario,Amigos,Q25 - Q50
+248,Todos los días,Supermercado,Compañeros de trabajo,Q51 - Q100
+249,Varias veces al mes,Tienda de barrio,Amigos,Menos de Q25
+250,1 a 2 veces por semana,Supermercado,Solo,Menos de Q25
+251,3 a 5 veces por semana,Aplicación de delivery,Solo,Menos de Q25
+252,1 a 2 veces por semana,Gasolinera,Solo,Menos de Q25
+253,Rara vez,Tienda de barrio,Compañeros de trabajo,Q25 - Q50
+254,Rara vez,Supermercado,Familia,Q101 - Q150
+255,3 a 5 veces por semana,Supermercado,Solo,Q101 - Q150
+256,Varias veces al mes,Aplicación de delivery,Amigos,Menos de Q25
+257,3 a 5 veces por semana,Gasolinera,Amigos,Q25 - Q50
+258,3 a 5 veces por semana,Otro,Amigos,Más de Q150
+259,Varias veces al mes,Tienda de barrio,Compañeros de trabajo,Q25 - Q50
+260,3 a 5 veces por semana,Otro,Amigos,Q25 - Q50
+261,3 a 5 veces por semana,Aplicación de delivery,Amigos,Más de Q150
+262,Rara vez,Kiosco escolar/universitario,Amigos,Q51 - Q100
+263,1 a 2 veces por semana,Aplicación de delivery,Solo,Menos de Q25
+264,Varias veces al mes,Aplicación de delivery,Amigos,Más de Q150
+265,3 a 5 veces por semana,Supermercado,Amigos,Más de Q150
+266,Todos los días,No especificado,Familia,Q25 - Q50
+267,Rara vez,Gasolinera,Amigos,Más de Q150
+268,Todos los días,Tienda de barrio,Compañeros de trabajo,Q25 - Q50
+269,1 a 2 veces por semana,Supermercado,Familia,Más de Q150
+270,Rara vez,Gasolinera,Amigos,Q101 - Q150
+271,1 a 2 veces por semana,No especificado,Amigos,Q25 - Q50
+272,Rara vez,Kiosco escolar/universitario,Compañeros de trabajo,Menos de Q25
+273,3 a 5 veces por semana,Gasolinera,Solo,Q51 - Q100
+274,Todos los días,Gasolinera,Otro,Q25 - Q50
+275,1 a 2 veces por semana,Kiosco escolar/universitario,Familia,Menos de Q25
+276,3 a 5 veces por semana,Tienda de barrio,Compañeros de trabajo,Q25 - Q50
+277,1 a 2 veces por semana,Tienda de barrio,Compañeros de trabajo,Q25 - Q50
+278,Varias veces al mes,Supermercado,Amigos,Más de Q150
+279,1 a 2 veces por semana,Kiosco escolar/universitario,Solo,Q51 - Q100
+280,Todos los días,Tienda de barrio,Compañeros de trabajo,Q101 - Q150
+281,1 a 2 veces por semana,Gasolinera,Compañeros de trabajo,Q25 - Q50
+282,3 a 5 veces por semana,Tienda de barrio,Familia,Menos de Q25
+283,Varias veces al mes,Gasolinera,Amigos,Q101 - Q150
+284,Varias veces al mes,Gasolinera,Amigos,Más de Q150
+285,Rara vez,Tienda de barrio,Familia,Q51 - Q100
+286,3 a 5 veces por semana,Gasolinera,Compañeros de trabajo,Q51 - Q100
+287,1 a 2 veces por semana,Gasolinera,Solo,Más de Q150
+288,1 a 2 veces por semana,Gasolinera,Solo,Q25 - Q50
+289,3 a 5 veces por semana,Supermercado,Compañeros de trabajo,Q25 - Q50
+290,1 a 2 veces por semana,Kiosco escolar/universitario,Familia,Q25 - Q50
+291,Varias veces al mes,Gasolinera,Amigos,Menos de Q25
+292,3 a 5 veces por semana,Gasolinera,Compañeros de trabajo,Q25 - Q50
+293,Rara vez,Gasolinera,Solo,Q25 - Q50
+294,Todos los días,Aplicación de delivery,Compañeros de trabajo,Q25 - Q50
+295,Todos los días,Aplicación de delivery,Familia,Menos de Q25
+296,3 a 5 veces por semana,Kiosco escolar/universitario,Amigos,Q25 - Q50
+297,Varias veces al mes,Kiosco escolar/universitario,Amigos,Q51 - Q100
+298,3 a 5 veces por semana,Aplicación de delivery,Familia,Q101 - Q150
+299,Varias veces al mes,Aplicación de delivery,Familia,Q101 - Q150
+300,1 a 2 veces por semana,Supermercado,Otro,Más de Q150
+301,Todos los días,Tienda de barrio,Amigos,Q101 - Q150
+302,Rara vez,Tienda de barrio,Amigos,Más de Q150
+303,Todos los días,Supermercado,Solo,Q25 - Q50
+304,3 a 5 veces por semana,Kiosco escolar/universitario,Compañeros de trabajo,Q51 - Q100
+305,1 a 2 veces por semana,Gasolinera,Otro,Q25 - Q50
+306,Todos los días,Gasolinera,Solo,Q51 - Q100
+307,Varias veces al mes,Gasolinera,Compañeros de trabajo,Q25 - Q50
+308,3 a 5 veces por semana,Tienda de barrio,Otro,Q101 - Q150
+309,1 a 2 veces por semana,Kiosco escolar/universitario,Amigos,Q51 - Q100
+310,3 a 5 veces por semana,Aplicación de delivery,Amigos,Q25 - Q50
+311,1 a 2 veces por semana,Aplicación de delivery,Otro,Q51 - Q100
+312,1 a 2 veces por semana,Kiosco escolar/universitario,Otro,Más de Q150
+313,3 a 5 veces por semana,Aplicación de delivery,Amigos,Q101 - Q150
+314,1 a 2 veces por semana,Aplicación de delivery,Otro,Menos de Q25
+315,3 a 5 veces por semana,Tienda de barrio,Solo,Q101 - Q150
+316,Varias veces al mes,Supermercado,Solo,Q51 - Q100
+317,Todos los días,Tienda de barrio,Amigos,Más de Q150
+318,Varias veces al mes,Tienda de barrio,Familia,Q101 - Q150
+319,3 a 5 veces por semana,Kiosco escolar/universitario,Familia,Más de Q150
+320,3 a 5 veces por semana,Tienda de barrio,Otro,Q25 - Q50
+321,Varias veces al mes,Supermercado,Familia,Más de Q150
+322,Rara vez,Gasolinera,Compañeros de trabajo,Q25 - Q50
+323,3 a 5 veces por semana,Otro,Familia,Menos de Q25
+324,Varias veces al mes,Gasolinera,Familia,Q25 - Q50
+325,3 a 5 veces por semana,Aplicación de delivery,Compañeros de trabajo,Más de Q150
+326,3 a 5 veces por semana,Supermercado,Compañeros de trabajo,Menos de Q25
+327,Rara vez,Aplicación de delivery,Familia,Q51 - Q100
+328,Todos los días,Kiosco escolar/universitario,Otro,Menos de Q25
+329,Todos los días,Tienda de barrio,Solo,Q25 - Q50
+330,1 a 2 veces por semana,No especificado,Familia,Q25 - Q50
+331,Todos los días,Kiosco escolar/universitario,Compañeros de trabajo,Más de Q150
+332,1 a 2 veces por semana,Kiosco escolar/universitario,Compañeros de trabajo,Q51 - Q100
+333,1 a 2 veces por semana,Gasolinera,Compañeros de trabajo,Q51 - Q100
+334,1 a 2 veces por semana,Otro,Compañeros de trabajo,Q101 - Q150
+335,Varias veces al mes,Kiosco escolar/universitario,Compañeros de trabajo,Q51 - Q100
+336,Varias veces al mes,Kiosco escolar/universitario,Amigos,Más de Q150
+337,Todos los días,Gasolinera,Amigos,Menos de Q25
+338,Todos los días,Gasolinera,Solo,Más de Q150
+339,Rara vez,Supermercado,Otro,Q51 - Q100
+340,3 a 5 veces por semana,Supermercado,Otro,Menos de Q25
+341,1 a 2 veces por semana,Tienda de barrio,Compañeros de trabajo,Menos de Q25
+342,1 a 2 veces por semana,Otro,Amigos,Q51 - Q100
+343,3 a 5 veces por semana,Aplicación de delivery,Solo,Q101 - Q150
+344,Rara vez,Aplicación de delivery,Amigos,Menos de Q25
+345,Varias veces al mes,Supermercado,Solo,Q101 - Q150
+346,1 a 2 veces por semana,Aplicación de delivery,Compañeros de trabajo,Menos de Q25
+347,1 a 2 veces por semana,Otro,Familia,Q101 - Q150
+348,3 a 5 veces por semana,Tienda de barrio,Compañeros de trabajo,Más de Q150
+349,Rara vez,Otro,Compañeros de trabajo,Q25 - Q50
+350,3 a 5 veces por semana,Tienda de barrio,Solo,Más de Q150
+351,1 a 2 veces por semana,Gasolinera,Otro,Menos de Q25
+352,Varias veces al mes,Gasolinera,Familia,Q101 - Q150
+353,1 a 2 veces por semana,Aplicación de delivery,Otro,Q25 - Q50
+354,1 a 2 veces por semana,Tienda de barrio,Otro,Q101 - Q150
+355,Varias veces al mes,Aplicación de delivery,Familia,Q25 - Q50
+356,3 a 5 veces por semana,Tienda de barrio,Amigos,Más de Q150
+357,Todos los días,Otro,Solo,Q51 - Q100
+358,1 a 2 veces por semana,No especificado,Amigos,Q51 - Q100
+359,Rara vez,Supermercado,Compañeros de trabajo,Q101 - Q150
+360,1 a 2 veces por semana,Aplicación de delivery,Amigos,Q25 - Q50
+361,Varias veces al mes,Otro,Otro,Q51 - Q100
+362,Varias veces al mes,Gasolinera,Compañeros de trabajo,Q51 - Q100
+363,1 a 2 veces por semana,No especificado,Familia,Q51 - Q100
+364,Rara vez,Kiosco escolar/universitario,Familia,Q25 - Q50
+365,1 a 2 veces por semana,Tienda de barrio,Amigos,Más de Q150
+366,3 a 5 veces por semana,Kiosco escolar/universitario,Compañeros de trabajo,Q101 - Q150
+367,Rara vez,Supermercado,Solo,Menos de Q25
+368,3 a 5 veces por semana,No especificado,Familia,Q51 - Q100
+369,Todos los días,Otro,Otro,Q51 - Q100
+370,3 a 5 veces por semana,Supermercado,Solo,Q25 - Q50
+371,1 a 2 veces por semana,Kiosco escolar/universitario,Amigos,Q25 - Q50
+372,Varias veces al mes,Tienda de barrio,Solo,Menos de Q25
+373,Rara vez,Supermercado,Familia,Menos de Q25
+374,Varias veces al mes,Gasolinera,Otro,Q51 - Q100
+375,Varias veces al mes,Supermercado,Amigos,Q51 - Q100
+376,1 a 2 veces por semana,Aplicación de delivery,Familia,Menos de Q25
+377,1 a 2 veces por semana,Aplicación de delivery,Familia,Más de Q150
+378,Todos los días,Supermercado,Compañeros de trabajo,Más de Q150
+379,3 a 5 veces por semana,Supermercado,Otro,Q51 - Q100
+380,Varias veces al mes,Aplicación de delivery,Amigos,Q101 - Q150
+381,3 a 5 veces por semana,Kiosco escolar/universitario,Solo,Q25 - Q50
+382,Varias veces al mes,Gasolinera,Solo,Q51 - Q100
+383,3 a 5 veces por semana,Kiosco escolar/universitario,Solo,Q51 - Q100
+384,Todos los días,Aplicación de delivery,Amigos,Q25 - Q50
+385,Rara vez,Kiosco escolar/universitario,Familia,Q101 - Q150
+386,Rara vez,Supermercado,Amigos,Menos de Q25
+387,1 a 2 veces por semana,Kiosco escolar/universitario,Solo,Menos de Q25
+388,Rara vez,Tienda de barrio,Solo,Q101 - Q150
+389,3 a 5 veces por semana,Gasolinera,Amigos,Menos de Q25
+390,Todos los días,Aplicación de delivery,Familia,Q51 - Q100
+391,1 a 2 veces por semana,Aplicación de delivery,Compañeros de trabajo,Q51 - Q100
+392,Varias veces al mes,Gasolinera,Solo,Q25 - Q50
+393,1 a 2 veces por semana,Kiosco escolar/universitario,Familia,Q101 - Q150
+394,3 a 5 veces por semana,Gasolinera,Solo,Menos de Q25
+395,Varias veces al mes,Tienda de barrio,Compañeros de trabajo,Q51 - Q100
+396,Todos los días,Tienda de barrio,Otro,Más de Q150
+397,Rara vez,Otro,Amigos,Q101 - Q150
+398,3 a 5 veces por semana,Aplicación de delivery,Solo,Q25 - Q50
+399,Todos los días,Kiosco escolar/universitario,Compañeros de trabajo,Q25 - Q50
+400,3 a 5 veces por semana,No especificado,Familia,Q101 - Q150
+401,Todos los días,Gasolinera,Compañeros de trabajo,Menos de Q25
+402,1 a 2 veces por semana,Gasolinera,Compañeros de trabajo,Q101 - Q150
+403,1 a 2 veces por semana,Kiosco escolar/universitario,Familia,Más de Q150
+404,Todos los días,Kiosco escolar/universitario,Amigos,Menos de Q25
+405,Varias veces al mes,Otro,Amigos,Más de Q150
+406,Rara vez,Otro,Familia,Q51 - Q100
+407,3 a 5 veces por semana,Aplicación de delivery,Familia,Más de Q150
+408,Varias veces al mes,Aplicación de delivery,Familia,Más de Q150
+409,Varias veces al mes,Otro,Solo,Q101 - Q150
+410,Rara vez,Kiosco escolar/universitario,Amigos,Menos de Q25
+411,Varias veces al mes,Tienda de barrio,Otro,Q101 - Q150
+412,Varias veces al mes,No especificado,Amigos,Menos de Q25
+413,1 a 2 veces por semana,Gasolinera,Otro,Q101 - Q150
+414,Rara vez,Aplicación de delivery,Familia,Menos de Q25
+415,3 a 5 veces por semana,Tienda de barrio,Otro,Q51 - Q100
+416,Todos los días,Supermercado,Compañeros de trabajo,Q101 - Q150
+417,Rara vez,Tienda de barrio,Amigos,Q101 - Q150
+418,3 a 5 veces por semana,Gasolinera,Amigos,Q101 - Q150
+419,Rara vez,Kiosco escolar/universitario,Familia,Q51 - Q100
+420,Todos los días,Kiosco escolar/universitario,Otro,Q25 - Q50
+421,Varias veces al mes,Otro,Solo,Q51 - Q100
+422,Todos los días,Kiosco escolar/universitario,Otro,Q101 - Q150
+423,Todos los días,Supermercado,Compañeros de trabajo,Q25 - Q50
+424,Todos los días,Supermercado,Amigos,Más de Q150
+425,Varias veces al mes,Kiosco escolar/universitario,Solo,Q51 - Q100
+426,Varias veces al mes,Otro,Amigos,Menos de Q25
+427,Todos los días,Otro,Amigos,Más de Q150
+428,Varias veces al mes,Tienda de barrio,Solo,Q101 - Q150
+429,1 a 2 veces por semana,Supermercado,Amigos,Más de Q150
+430,Todos los días,Aplicación de delivery,Solo,Q101 - Q150
+431,Rara vez,Tienda de barrio,Solo,Menos de Q25
+432,Todos los días,Supermercado,Solo,Q51 - Q100
+433,3 a 5 veces por semana,Kiosco escolar/universitario,Familia,Menos de Q25
+434,1 a 2 veces por semana,Supermercado,Otro,Q101 - Q150
+435,1 a 2 veces por semana,Supermercado,Compañeros de trabajo,Q101 - Q150
+436,Varias veces al mes,Kiosco escolar/universitario,Familia,Más de Q150
+437,Varias veces al mes,Otro,Familia,Q101 - Q150
+438,1 a 2 veces por semana,Otro,Solo,Q25 - Q50
+439,Rara vez,Supermercado,Solo,Q25 - Q50
+440,Rara vez,Supermercado,Solo,Q51 - Q100
+441,Varias veces al mes,Aplicación de delivery,Compañeros de trabajo,Menos de Q25
+442,Varias veces al mes,Kiosco escolar/universitario,Compañeros de trabajo,Menos de Q25
+443,1 a 2 veces por semana,Supermercado,Solo,Más de Q150
+444,1 a 2 veces por semana,Otro,Solo,Q51 - Q100
+445,Todos los días,Supermercado,Otro,Q101 - Q150
+446,Varias veces al mes,Supermercado,Compañeros de trabajo,Q101 - Q150
+447,3 a 5 veces por semana,Otro,Compañeros de trabajo,Q25 - Q50
+448,3 a 5 veces por semana,Tienda de barrio,Otro,Más de Q150
+449,3 a 5 veces por semana,Aplicación de delivery,Compañeros de trabajo,Q51 - Q100
+450,Rara vez,Supermercado,Compañeros de trabajo,Menos de Q25
+451,Varias veces al mes,Aplicación de delivery,Familia,Menos de Q25
+452,1 a 2 veces por semana,Supermercado,Solo,Q101 - Q150
+453,3 a 5 veces por semana,No especificado,Amigos,Q25 - Q50
+454,Varias veces al mes,Otro,Compañeros de trabajo,Menos de Q25
+455,3 a 5 veces por semana,Gasolinera,Otro,Más de Q150
+456,1 a 2 veces por semana,Tienda de barrio,Solo,Más de Q150
+457,Rara vez,Supermercado,Familia,Más de Q150
+458,Todos los días,Aplicación de delivery,Otro,Q25 - Q50
+459,3 a 5 veces por semana,Kiosco escolar/universitario,Amigos,Q101 - Q150
+460,3 a 5 veces por semana,Otro,Solo,Más de Q150
+461,Todos los días,Kiosco escolar/universitario,Compañeros de trabajo,Menos de Q25
+462,Todos los días,Aplicación de delivery,Familia,Q101 - Q150
+463,1 a 2 veces por semana,No especificado,Compañeros de trabajo,Q51 - Q100
+464,1 a 2 veces por semana,Aplicación de delivery,Compañeros de trabajo,Más de Q150
+465,Todos los días,Gasolinera,Compañeros de trabajo,Q51 - Q100
+466,1 a 2 veces por semana,Otro,Compañeros de trabajo,Q51 - Q100
+467,Varias veces al mes,Aplicación de delivery,Compañeros de trabajo,Q51 - Q100
+468,Varias veces al mes,Kiosco escolar/universitario,Amigos,Menos de Q25
+469,Todos los días,Aplicación de delivery,Solo,Q51 - Q100
+470,Rara vez,Otro,Amigos,Q25 - Q50
+471,1 a 2 veces por semana,Aplicación de delivery,Solo,Q51 - Q100
+472,Varias veces al mes,No especificado,Amigos,Q25 - Q50
+473,3 a 5 veces por semana,Otro,Amigos,Menos de Q25
+474,Varias veces al mes,Supermercado,Otro,Menos de Q25
+475,Rara vez,Kiosco escolar/universitario,Amigos,Q25 - Q50
+476,Todos los días,No especificado,Familia,Menos de Q25
+477,Rara vez,Otro,Familia,Q25 - Q50
+478,3 a 5 veces por semana,Supermercado,Otro,Q25 - Q50
+479,Varias veces al mes,Supermercado,Otro,Q51 - Q100
+480,Rara vez,Gasolinera,Amigos,Q25 - Q50
+481,Rara vez,Tienda de barrio,Familia,Más de Q150
+482,Todos los días,No especificado,Amigos,Q25 - Q50
+483,1 a 2 veces por semana,Aplicación de delivery,Otro,Más de Q150
+484,Varias veces al mes,Kiosco escolar/universitario,Solo,Más de Q150
+485,1 a 2 veces por semana,Gasolinera,Compañeros de trabajo,Menos de Q25
+486,Rara vez,Gasolinera,Familia,Q101 - Q150
+487,1 a 2 veces por semana,Gasolinera,Compañeros de trabajo,Más de Q150
+488,3 a 5 veces por semana,Otro,Compañeros de trabajo,Q51 - Q100
+489,3 a 5 veces por semana,Kiosco escolar/universitario,Familia,Q101 - Q150
+490,Todos los días,No especificado,Compañeros de trabajo,Menos de Q25
+491,Rara vez,Tienda de barrio,Solo,Q25 - Q50
+492,Varias veces al mes,Gasolinera,Compañeros de trabajo,Menos de Q25
+493,1 a 2 veces por semana,No especificado,Amigos,Menos de Q25
+494,Rara vez,Gasolinera,Amigos,Menos de Q25
+495,Varias veces al mes,Supermercado,Compañeros de trabajo,Menos de Q25
+496,Todos los días,Aplicación de delivery,Amigos,Q101 - Q150
+497,Todos los días,Tienda de barrio,Compañeros de trabajo,Más de Q150
+498,Todos los días,Tienda de barrio,Solo,Menos de Q25
+499,1 a 2 veces por semana,Gasolinera,Solo,Q101 - Q150
+500,1 a 2 veces por semana,Aplicación de delivery,Compañeros de trabajo,Q25 - Q50
+501,Varias veces al mes,Gasolinera,Otro,Q25 - Q50
+502,Rara vez,Otro,Familia,Q101 - Q150
+503,Todos los días,Tienda de barrio,Compañeros de trabajo,Menos de Q25
+504,Todos los días,No especificado,Amigos,Q51 - Q100
+505,Todos los días,Kiosco escolar/universitario,Familia,Q101 - Q150
+506,1 a 2 veces por semana,Kiosco escolar/universitario,Otro,Q25 - Q50
+507,Todos los días,Supermercado,Otro,Q51 - Q100
+508,Todos los días,Tienda de barrio,Solo,Q101 - Q150
+509,3 a 5 veces por semana,Otro,Compañeros de trabajo,Menos de Q25
+510,Todos los días,No especificado,Amigos,Menos de Q25
+511,1 a 2 veces por semana,Otro,Solo,Menos de Q25
+512,Rara vez,Aplicación de delivery,Amigos,Q101 - Q150
+513,3 a 5 veces por semana,Aplicación de delivery,Otro,Q51 - Q100
+514,3 a 5 veces por semana,No especificado,Familia,Q25 - Q50
+515,3 a 5 veces por semana,Gasolinera,Compañeros de trabajo,Más de Q150
+516,Rara vez,Gasolinera,Solo,Más de Q150
+517,Todos los días,Kiosco escolar/universitario,Familia,Más de Q150
+518,Rara vez,Aplicación de delivery,Amigos,Más de Q150
+519,3 a 5 veces por semana,Tienda de barrio,Compañeros de trabajo,Q101 - Q150
+520,Rara vez,Tienda de barrio,Compañeros de trabajo,Q51 - Q100
+521,Rara vez,No especificado,Familia,Q25 - Q50
+522,Varias veces al mes,Aplicación de delivery,Otro,Q25 - Q50
+523,Varias veces al mes,No especificado,Familia,Q101 - Q150
+524,Varias veces al mes,Aplicación de delivery,Solo,Q101 - Q150
+525,Todos los días,Aplicación de delivery,Solo,Q25 - Q50
+526,1 a 2 veces por semana,Kiosco escolar/universitario,Solo,Q101 - Q150
+527,Todos los días,No especificado,Amigos,Q101 - Q150
+528,Varias veces al mes,Supermercado,Solo,Más de Q150

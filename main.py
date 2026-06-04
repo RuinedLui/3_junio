@@ -1,118 +1,158 @@
 import pandas as pd
-import numpy as np
 
-# Configuración visual para la consola
-pd.set_option('display.max_columns', None)
-pd.set_option('display.width', 1000)
+# ─────────────────────────────────────────────
+# 1. CARGA
+# ─────────────────────────────────────────────
+df = pd.read_csv("encuesta_snacks_mundial_2026_guatemala_2500_respuestas.csv")
 
-print("=" * 70)
-print("   ETL - ENCUESTA SNACKS MUNDIAL 2026 (FASE 1: INGESTA Y LIMPIEZA)")
-print("=" * 70)
+# ─────────────────────────────────────────────
+# 2. ESTANDARIZACIÓN GENERAL
+# ─────────────────────────────────────────────
+df["Municipio"]              = df["Municipio"].fillna("No especificado")
+df["Ocupacion"]              = df["Ocupacion"].fillna("No especificado")
+df["LugarCompraSnacks"]      = df["LugarCompraSnacks"].fillna("No especificado")
+df["SaborPreferido"]         = df["SaborPreferido"].fillna("No especificado")
+df["PrecioAdecuado"]         = df["PrecioAdecuado"].fillna("No especificado")
+df["SeleccionInfluyeCompra"] = df["SeleccionInfluyeCompra"].fillna("No especificado")
 
-# ==========================================
-# Paso 1. Carga del Dataset Original
-# ==========================================
-# Leemos el archivo CSV esta en src/
-df_crudo = pd.read_csv("encuesta_snacks_mundial_2026_guatemala_2500_respuestas.csv")
-
-print("\n>>> PASO 1: LECTURA DEL ARCHIVO CSV")
-print("-" * 70)
-print(f"Total de Encuestas Recibidas: {df_crudo.shape[0]} filas")
-print(f"Total de Variables (Preguntas): {df_crudo.shape[1]} columnas")
-
-# ==========================================
-# Paso 2. Estandarización de Texto y Limpieza Básica
-# ==========================================
-# Al ser un formulario, la gente suele dejar espacios al inicio o final.
-# Vamos a limpiar todas las columnas de texto (object)
-
-# Seleccionamos solo las columnas que son texto
-columnas_texto = df_crudo.select_dtypes(include=['object']).columns
-
-# Aplicamos .str.strip() para quitar espacios y .str.title() para estandarizar formato
-for col in columnas_texto:
-    df_crudo[col] = df_crudo[col].str.strip().str.title()
-
-print("\n>>> PASO 2: LIMPIEZA DE ESPACIOS Y FORMATO DE TEXTO APLICADA")
-print("-" * 70)
-
-# ==========================================
-# Paso 3. Tratamiento de Valores Nulos
-# ==========================================
-print("\n>>> PASO 3: REPORTE DE VALORES NULOS")
-print("-" * 70)
-nulos_por_columna = df_crudo.isnull().sum()
-print(nulos_por_columna[nulos_por_columna > 0]) # Solo mostramos si hay errores
-
-# Llenamos los posibles nulos con "No Indicado" para no perder la encuesta
-df_crudo.fillna("No Indicado", inplace=True)
-
-print("\n(✓) Valores nulos reemplazados por 'No Indicado' exitosamente.")
-
-#ESTO POSTERIORMERTE SE QUITARÁ, SOLO ES PARA VER LA MUESTRA DE DATOS LIMPIOS EN LA CONSOLA
-# Mostramos una vista previa rápida de las primeras 3 encuestas
-print("\n>>> VISTA PREVIA DE DATOS LIMPIOS (MUESTRA)")
-print("-" * 70)
-
-# Usamos .T (Transponer) para que las 26 columnas se vean hacia abajo 
-# y sea muy fácil leer el perfil de las primeras 3 personas.
-print(df_crudo.head(3).T.to_string())
-
-# ==========================================
-# FASE 2: CREACIÓN DEL ESQUEMA DE ESTRELLA (STAR SCHEMA)
-# Extraemos valores únicos para crear las Tablas de Dimensiones
-# ==========================================
-print("\n>>> FASE 2: CONSTRUCCIÓN DE LAS TABLAS DE DIMENSIONES")
-print("-" * 70)
-
-# 1. Dimensión Geografía
-dim_geografia = df_crudo[['Departamento', 'Municipio']].drop_duplicates().reset_index(drop=True)
-dim_geografia.insert(0, 'GeografiaID', range(1, len(dim_geografia) + 1))
-print(f"✓ dim_geografia creada con {len(dim_geografia)} ubicaciones únicas.")
-
-# 2. Dimensión Demografía
-dim_demografia = df_crudo[['RangoEdad', 'Genero', 'Ocupacion']].drop_duplicates().reset_index(drop=True)
-dim_demografia.insert(0, 'DemografiaID', range(1, len(dim_demografia) + 1))
-print(f"✓ dim_demografia creada con {len(dim_demografia)} perfiles únicos.")
-
-# 3. Dimensión Hábitos de Consumo
-dim_consumo = df_crudo[['FrecuenciaConsumoSnacks', 'LugarCompraSnacks', 'ConQuienVePartidos', 'GastoSnacksPartido']].drop_duplicates().reset_index(drop=True)
-dim_consumo.insert(0, 'ConsumoID', range(1, len(dim_consumo) + 1))
-print(f"✓ dim_consumo creada con {len(dim_consumo)} patrones únicos.")
-
-# 4. Dimensión Preferencias de Producto
-dim_producto = df_crudo[['SnacksSeleccionados', 'SaborPreferido', 'PresentacionPreferida', 'PrecioAdecuado', 'PagaMasEdicionMundial']].drop_duplicates().reset_index(drop=True)
-dim_producto.insert(0, 'ProductoID', range(1, len(dim_producto) + 1))
-print(f"✓ dim_producto creada con {len(dim_producto)} combinaciones de producto únicas.")
-
-# 5. Dimensión Marketing
-dim_marketing = df_crudo[['PlaneaVerMundial2026', 'SeleccionApoya', 'JugadoresInfluyentes', 'TipoPublicidadAtractiva', 'PromocionPreferida']].drop_duplicates().reset_index(drop=True)
-dim_marketing.insert(0, 'MarketingID', range(1, len(dim_marketing) + 1))
-print(f"✓ dim_marketing creada con {len(dim_marketing)} perfiles de marketing únicos.")
+alias_depto = {"Guate": "Guatemala", "Xela": "Quetzaltenango"}
+df["Departamento"] = df["Departamento"].str.strip().str.title().replace(alias_depto)
+df["Municipio"]    = df["Municipio"].str.strip().str.title()
 
 
-# ==========================================
-# FASE 3: CONSTRUCCIÓN DE LA TABLA DE HECHOS (FACT TABLE)
-# ==========================================
-print("\n>>> FASE 3: CONSTRUCCIÓN DE LA TABLA DE HECHOS")
-print("-" * 70)
+# ─────────────────────────────────────────────
+# 3. DIM_GEOGRAFIA
+# ─────────────────────────────────────────────
+dim_geo = df[["Departamento","Municipio"]].drop_duplicates().reset_index(drop=True)
+dim_geo.insert(0, "GeografiaID", dim_geo.index + 1)
+df = df.merge(dim_geo, on=["Departamento","Municipio"], how="left")
 
-# Unimos (Merge) el dataframe original con las dimensiones para traernos los nuevos IDs
-df_temporal = df_crudo.copy()
-df_temporal = df_temporal.merge(dim_geografia, on=['Departamento', 'Municipio'], how='left')
-df_temporal = df_temporal.merge(dim_demografia, on=['RangoEdad', 'Genero', 'Ocupacion'], how='left')
-df_temporal = df_temporal.merge(dim_consumo, on=['FrecuenciaConsumoSnacks', 'LugarCompraSnacks', 'ConQuienVePartidos', 'GastoSnacksPartido'], how='left')
-df_temporal = df_temporal.merge(dim_producto, on=['SnacksSeleccionados', 'SaborPreferido', 'PresentacionPreferida', 'PrecioAdecuado', 'PagaMasEdicionMundial'], how='left')
-df_temporal = df_temporal.merge(dim_marketing, on=['PlaneaVerMundial2026', 'SeleccionApoya', 'JugadoresInfluyentes', 'TipoPublicidadAtractiva', 'PromocionPreferida'], how='left')
+# ─────────────────────────────────────────────
+# 4. DIM_DEMOGRAFIA
+# ─────────────────────────────────────────────
+dim_dem = df[["RangoEdad","Genero","Ocupacion"]].drop_duplicates().reset_index(drop=True)d
+dim_dem.insert(0, "DemografiaID", dim_dem.index + 1)
+dim_dem.columns = ["DemografiaID","Rango_Edad","Genero","Ocupacion"]
+df = df.merge(dim_dem.rename(columns={"Rango_Edad":"RangoEdad"}),
+              on=["RangoEdad","Genero","Ocupacion"], how="left")
 
-# Seleccionamos solo las columnas que van en la tabla de hechos
-fact_encuestas = df_temporal[['EncuestaID', 'FechaEncuesta', 'HoraEncuesta', 'GeografiaID', 'DemografiaID', 'ConsumoID', 'ProductoID', 'MarketingID']].copy()
+# ─────────────────────────────────────────────
+# 5. DIM_HABITOS_CONSUMO
+# ─────────────────────────────────────────────
+cons_cols = ["FrecuenciaConsumoSnacks","LugarCompraSnacks",
+             "ConQuienVePartidos","GastoSnacksPartido"]
+dim_cons = df[cons_cols].drop_duplicates().reset_index(drop=True)
+dim_cons.insert(0, "ConsumoID", dim_cons.index + 1)
+dim_cons.columns = ["ConsumoID","Frecuencia_Consumo","Lugar_Compra_Habitual",
+                    "Compania_Partidos","Gasto_Snacks_Partido"]
+df = df.merge(
+    dim_cons.rename(columns={
+        "Frecuencia_Consumo"   : "FrecuenciaConsumoSnacks",
+        "Lugar_Compra_Habitual": "LugarCompraSnacks",
+        "Compania_Partidos"    : "ConQuienVePartidos",
+        "Gasto_Snacks_Partido" : "GastoSnacksPartido",
+    }),
+    on=cons_cols, how="left"
+)
 
-# Agregamos una métrica de conteo base para Power BI
-fact_encuestas['Cantidad_Encuesta'] = 1 
+# ─────────────────────────────────────────────
+# 6. DIM_PREFERENCIAS_PRODUCTO
+# ─────────────────────────────────────────────
+prod_cols = ["SaborPreferido","PrecioAdecuado","PresentacionPreferida","PagaMasEdicionMundial"]
+dim_prod = df[prod_cols].drop_duplicates().reset_index(drop=True)
+dim_prod.insert(0, "ProductoID", dim_prod.index + 1)
+dim_prod.columns = ["ProductoID","Sabor_Preferido","Precio_Ideal",
+                    "Presentacion_Preferida","Paga_Mas_Edicion_Especial"]
+df = df.merge(
+    dim_prod.rename(columns={
+        "Sabor_Preferido"          : "SaborPreferido",
+        "Precio_Ideal"             : "PrecioAdecuado",
+        "Presentacion_Preferida"   : "PresentacionPreferida",
+        "Paga_Mas_Edicion_Especial": "PagaMasEdicionMundial",
+    }),
+    on=prod_cols, how="left"
+)
 
-print(f"✓ fact_encuestas creada con {len(fact_encuestas)} registros y conectada a todos los IDs.")
-print("\nVista previa de la Tabla de Hechos (Muestra):")
-print(fact_encuestas.head(3))
+# ─────────────────────────────────────────────
+# 7. DIM_SNACK
+# ─────────────────────────────────────────────
+snacks_unicos = (
+    df["SnacksSeleccionados"].str.split("; ").explode()
+    .str.strip().drop_duplicates().reset_index(drop=True)
+)
+dim_snack = pd.DataFrame({"SnackID": snacks_unicos.index + 1,
+                           "Snack_Nombre": snacks_unicos.values})
 
-# ==========================================
+# ─────────────────────────────────────────────
+# 8. DIM_JUGADOR
+# ─────────────────────────────────────────────
+jugadores_unicos = (
+    df["JugadoresInfluyentes"].str.split("; ").explode()
+    .str.strip().drop_duplicates().reset_index(drop=True)
+)
+dim_jugador = pd.DataFrame({"JugadorID": jugadores_unicos.index + 1,
+                             "Jugador_Nombre": jugadores_unicos.values})
+
+# ─────────────────────────────────────────────
+# 9. DIM_MARKETING_MUNDIAL
+# ─────────────────────────────────────────────
+mkt_cols = ["SeleccionApoya","TipoPublicidadAtractiva","PromocionPreferida",
+            "PlaneaVerMundial2026","CompraTarjetasColeccionables"]
+dim_mkt = df[mkt_cols].drop_duplicates().reset_index(drop=True)
+dim_mkt.insert(0, "MarketingID", dim_mkt.index + 1)
+dim_mkt.columns = ["MarketingID","Equipo_Favorito","Tipo_Publicidad",
+                   "Tipo_Promocion","Sigue_Mundial_2026",
+                   "Compraria_Tarjetas_Coleccionables"]
+df = df.merge(
+    dim_mkt.rename(columns={
+        "Equipo_Favorito"                   : "SeleccionApoya",
+        "Tipo_Publicidad"                   : "TipoPublicidadAtractiva",
+        "Tipo_Promocion"                    : "PromocionPreferida",
+        "Sigue_Mundial_2026"                : "PlaneaVerMundial2026",
+        "Compraria_Tarjetas_Coleccionables" : "CompraTarjetasColeccionables",
+    }),
+    on=mkt_cols, how="left"
+)
+
+# ─────────────────────────────────────────────
+# 10. FACT_ENCUESTAS
+# ─────────────────────────────────────────────
+fact = df[["EncuestaID","FechaEncuesta","HoraEncuesta",
+           "GeografiaID","DemografiaID","ConsumoID",
+           "ProductoID","MarketingID"]].copy()
+fact["Cantidad_Encuesta"] = 1
+
+# ─────────────────────────────────────────────
+# 11. BRIDGE TABLES
+# ─────────────────────────────────────────────
+snack_lookup = dim_snack.set_index("Snack_Nombre")["SnackID"]
+bridge_snack_rows = []
+for _, row in df[["EncuestaID","SnacksSeleccionados"]].iterrows():
+    for s in str(row["SnacksSeleccionados"]).split("; "):
+        s = s.strip()
+        if s in snack_lookup.index:
+            bridge_snack_rows.append({"EncuestaID": row["EncuestaID"], "SnackID": snack_lookup[s]})
+bridge_encuesta_snack = pd.DataFrame(bridge_snack_rows).drop_duplicates()
+
+jug_lookup = dim_jugador.set_index("Jugador_Nombre")["JugadorID"]
+bridge_jug_rows = []
+for _, row in df[["EncuestaID","JugadoresInfluyentes"]].iterrows():
+    for j in str(row["JugadoresInfluyentes"]).split("; "):
+        j = j.strip()
+        if j in jug_lookup.index:
+            bridge_jug_rows.append({"EncuestaID": row["EncuestaID"], "JugadorID": jug_lookup[j]})
+bridge_encuesta_jugador = pd.DataFrame(bridge_jug_rows).drop_duplicates()
+
+# ─────────────────────────────────────────────
+# 12. EXPORTAR CSV
+# ─────────────────────────────────────────────
+fact.to_csv("fact_encuestas.csv",                    index=False, encoding="utf-8-sig")
+dim_geo.to_csv("dim_geografia.csv",                  index=False, encoding="utf-8-sig")
+dim_dem.to_csv("dim_demografia.csv",                 index=False, encoding="utf-8-sig")
+dim_cons.to_csv("dim_habitos_consumo.csv",            index=False, encoding="utf-8-sig")
+dim_prod.to_csv("dim_preferencias_producto.csv",      index=False, encoding="utf-8-sig")
+dim_snack.to_csv("dim_snack.csv",                    index=False, encoding="utf-8-sig")
+dim_jugador.to_csv("dim_jugador.csv",                index=False, encoding="utf-8-sig")
+dim_mkt.to_csv("dim_marketing_mundial.csv",          index=False, encoding="utf-8-sig")
+bridge_encuesta_snack.to_csv("bridge_encuesta_snack.csv",       index=False, encoding="utf-8-sig")
+bridge_encuesta_jugador.to_csv("bridge_encuesta_jugador.csv",   index=False, encoding="utf-8-sig")

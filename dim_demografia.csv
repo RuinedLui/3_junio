@@ -1,0 +1,157 @@
+﻿DemografiaID,Rango_Edad,Genero,Ocupacion
+1,55 años o más,Femenino,Jubilado
+2,18 - 24 años,Masculino,Empresario
+3,35 - 44 años,Masculino,Estudiante
+4,25 - 34 años,Femenino,Empleado privado
+5,25 - 34 años,Femenino,Estudiante
+6,18 - 24 años,Masculino,Comerciante
+7,35 - 44 años,Masculino,Empleado privado
+8,25 - 34 años,Prefiero no indicarlo,Empresario
+9,25 - 34 años,Femenino,Profesional independiente
+10,Menos de 18 años,Femenino,Otro
+11,18 - 24 años,Masculino,Profesional independiente
+12,Menos de 18 años,Masculino,Empleado privado
+13,25 - 34 años,Masculino,Empresario
+14,25 - 34 años,Femenino,Jubilado
+15,18 - 24 años,Femenino,Estudiante
+16,Menos de 18 años,Femenino,Estudiante
+17,18 - 24 años,Femenino,Empleado privado
+18,35 - 44 años,Masculino,Empleado público
+19,18 - 24 años,Femenino,Comerciante
+20,18 - 24 años,Femenino,Empresario
+21,25 - 34 años,Masculino,Empleado público
+22,25 - 34 años,Masculino,Empleado privado
+23,18 - 24 años,Femenino,Otro
+24,45 - 54 años,Femenino,Empresario
+25,25 - 34 años,Femenino,Otro
+26,25 - 34 años,Masculino,Estudiante
+27,18 - 24 años,Masculino,Estudiante
+28,18 - 24 años,Femenino,Profesional independiente
+29,25 - 34 años,Femenino,Empresario
+30,Menos de 18 años,Masculino,Estudiante
+31,18 - 24 años,Femenino,No especificado
+32,18 - 24 años,Femenino,Ama de casa
+33,45 - 54 años,Masculino,Ama de casa
+34,45 - 54 años,Masculino,Estudiante
+35,35 - 44 años,Masculino,Comerciante
+36,45 - 54 años,Femenino,Empleado privado
+37,Menos de 18 años,Prefiero no indicarlo,Empleado privado
+38,25 - 34 años,Femenino,Comerciante
+39,55 años o más,Femenino,Comerciante
+40,45 - 54 años,Masculino,Empleado privado
+41,55 años o más,Femenino,Estudiante
+42,55 años o más,Masculino,Estudiante
+43,25 - 34 años,Masculino,Profesional independiente
+44,Menos de 18 años,Femenino,Jubilado
+45,Menos de 18 años,Femenino,Ama de casa
+46,45 - 54 años,Femenino,Profesional independiente
+47,45 - 54 años,Femenino,No especificado
+48,18 - 24 años,Femenino,Empleado público
+49,45 - 54 años,Femenino,Jubilado
+50,25 - 34 años,Femenino,Ama de casa
+51,25 - 34 años,Masculino,Jubilado
+52,Menos de 18 años,Femenino,Empresario
+53,55 años o más,Femenino,Ama de casa
+54,45 - 54 años,Masculino,Comerciante
+55,35 - 44 años,Femenino,Empleado privado
+56,25 - 34 años,Masculino,Ama de casa
+57,45 - 54 años,Masculino,Empleado público
+58,35 - 44 años,Femenino,Estudiante
+59,55 años o más,Masculino,Empleado privado
+60,18 - 24 años,Masculino,Empleado privado
+61,55 años o más,Femenino,Empresario
+62,35 - 44 años,Masculino,Ama de casa
+63,Menos de 18 años,Masculino,Profesional independiente
+64,25 - 34 años,Femenino,Empleado público
+65,Menos de 18 años,Femenino,Empleado privado
+66,35 - 44 años,Femenino,Ama de casa
+67,18 - 24 años,Masculino,Otro
+68,35 - 44 años,Prefiero no indicarlo,Profesional independiente
+69,25 - 34 años,Masculino,Comerciante
+70,25 - 34 años,Prefiero no indicarlo,Otro
+71,Menos de 18 años,Femenino,Profesional independiente
+72,35 - 44 años,Masculino,Profesional independiente
+73,45 - 54 años,Femenino,Comerciante
+74,Menos de 18 años,Prefiero no indicarlo,Estudiante
+75,18 - 24 años,Prefiero no indicarlo,Empleado privado
+76,45 - 54 años,Femenino,Estudiante
+77,35 - 44 años,Masculino,Empresario
+78,55 años o más,Femenino,Empleado privado
+79,35 - 44 años,Femenino,Otro
+80,55 años o más,Masculino,Empresario
+81,35 - 44 años,Femenino,Empleado público
+82,35 - 44 años,Masculino,Otro
+83,Menos de 18 años,Masculino,Ama de casa
+84,25 - 34 años,Prefiero no indicarlo,Profesional independiente
+85,45 - 54 años,Masculino,Profesional independiente
+86,18 - 24 años,Masculino,Empleado público
+87,45 - 54 años,Prefiero no indicarlo,No especificado
+88,35 - 44 años,Femenino,Comerciante
+89,35 - 44 años,Femenino,Jubilado
+90,45 - 54 años,Masculino,Otro
+91,Menos de 18 años,Masculino,Otro
+92,Menos de 18 años,Femenino,Comerciante
+93,18 - 24 años,Masculino,Jubilado
+94,35 - 44 años,Prefiero no indicarlo,Comerciante
+95,Menos de 18 años,Femenino,Empleado público
+96,55 años o más,Masculino,Ama de casa
+97,45 - 54 años,Prefiero no indicarlo,Empleado privado
+98,Menos de 18 años,Masculino,Jubilado
+99,Menos de 18 años,Masculino,Empleado público
+100,55 años o más,Masculino,Empleado público
+101,55 años o más,Prefiero no indicarlo,Estudiante
+102,45 - 54 años,Femenino,Empleado público
+103,55 años o más,Femenino,Profesional independiente
+104,Menos de 18 años,Masculino,Comerciante
+105,Menos de 18 años,Masculino,Empresario
+106,25 - 34 años,Masculino,Otro
+107,55 años o más,Femenino,Empleado público
+108,35 - 44 años,Femenino,No especificado
+109,55 años o más,Masculino,Comerciante
+110,45 - 54 años,Femenino,Ama de casa
+111,18 - 24 años,Masculino,No especificado
+112,55 años o más,Masculino,Jubilado
+113,18 - 24 años,Masculino,Ama de casa
+114,35 - 44 años,Femenino,Profesional independiente
+115,55 años o más,Prefiero no indicarlo,Empleado privado
+116,35 - 44 años,Masculino,Jubilado
+117,35 - 44 años,Masculino,No especificado
+118,55 años o más,Femenino,No especificado
+119,35 - 44 años,Femenino,Empresario
+120,45 - 54 años,Prefiero no indicarlo,Estudiante
+121,18 - 24 años,Prefiero no indicarlo,Estudiante
+122,35 - 44 años,Prefiero no indicarlo,Empresario
+123,Menos de 18 años,Masculino,No especificado
+124,25 - 34 años,Prefiero no indicarlo,Empleado privado
+125,45 - 54 años,Masculino,Empresario
+126,18 - 24 años,Prefiero no indicarlo,Otro
+127,18 - 24 años,Femenino,Jubilado
+128,45 - 54 años,Masculino,Jubilado
+129,Menos de 18 años,Prefiero no indicarlo,Empresario
+130,55 años o más,Masculino,Otro
+131,25 - 34 años,Prefiero no indicarlo,Estudiante
+132,55 años o más,Masculino,Profesional independiente
+133,35 - 44 años,Prefiero no indicarlo,Empleado público
+134,25 - 34 años,Femenino,No especificado
+135,45 - 54 años,Prefiero no indicarlo,Empleado público
+136,Menos de 18 años,Prefiero no indicarlo,Empleado público
+137,35 - 44 años,Prefiero no indicarlo,Empleado privado
+138,45 - 54 años,Masculino,No especificado
+139,Menos de 18 años,Prefiero no indicarlo,Profesional independiente
+140,35 - 44 años,Prefiero no indicarlo,Otro
+141,25 - 34 años,Prefiero no indicarlo,Comerciante
+142,45 - 54 años,Femenino,Otro
+143,25 - 34 años,Prefiero no indicarlo,Jubilado
+144,35 - 44 años,Prefiero no indicarlo,Estudiante
+145,25 - 34 años,Prefiero no indicarlo,Ama de casa
+146,45 - 54 años,Prefiero no indicarlo,Otro
+147,55 años o más,Masculino,No especificado
+148,25 - 34 años,Prefiero no indicarlo,Empleado público
+149,55 años o más,Prefiero no indicarlo,Comerciante
+150,35 - 44 años,Prefiero no indicarlo,Ama de casa
+151,25 - 34 años,Masculino,No especificado
+152,18 - 24 años,Prefiero no indicarlo,Profesional independiente
+153,35 - 44 años,Prefiero no indicarlo,Jubilado
+154,55 años o más,Prefiero no indicarlo,Empleado público
+155,Menos de 18 años,Femenino,No especificado
+156,18 - 24 años,Prefiero no indicarlo,Empresario

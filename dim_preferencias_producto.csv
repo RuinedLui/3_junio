@@ -1,0 +1,448 @@
+﻿ProductoID,Sabor_Preferido,Precio_Ideal,Presentacion_Preferida,Paga_Mas_Edicion_Especial
+1, DULCE ,Q10 - Q15,Familiar,Sí
+2,Caramelo,Q21 - Q30,Familiar,Sí
+3,Picante Chapín,Q16 - Q20,Familiar,Sí
+4,Limón,Q16 - Q20,Familiar,Sí
+5,Queso,Q16 - Q20,Para compartir entre 2 personas,No
+6,Jalapeño,Q21 - Q30,Para compartir entre 2 personas,Sí
+7,Dulce,Q16 - Q20,Individual,No
+8,Chocolate,Más de Q30,Para compartir entre 2 personas,No
+9,Dulce,Q10 - Q15,Familiar,No
+10,Barbacoa,Más de Q30,Para compartir entre 2 personas,No
+11,Queso,Q16 - Q20,Individual,Sí
+12,Limón,Q16 - Q20,Tamaño fiesta o reunión,Sí
+13,Queso,Más de Q30,Tamaño fiesta o reunión,No
+14,Jalapeño,Q10 - Q15,Individual,Sí
+15,Barbacoa,Q16 - Q20,Tamaño fiesta o reunión,Sí
+16, LIMÓN ,Q16 - Q20,Para compartir entre 2 personas,Sí
+17,Barbacoa,Q21 - Q30,Individual,Sí
+18,Picante Chapín,Más de Q30,Para compartir entre 2 personas,Sí
+19,Queso,Q16 - Q20,Familiar,Sí
+20,Barbacoa,Q21 - Q30,Familiar,Sí
+21,Caramelo,Q16 - Q20,Familiar,Sí
+22,Queso,Q21 - Q30,Familiar,No
+23,Picante Chapín,Q21 - Q30,Para compartir entre 2 personas,Sí
+24,Chocolate,Q21 - Q30,Familiar,Sí
+25,Salado Tradicional,Q10 - Q15,Individual,No
+26,Barbacoa,Q16 - Q20,Familiar,No
+27,Dulce,Q16 - Q20,Familiar,Sí
+28,Picante Chapín,Q16 - Q20,Tamaño fiesta o reunión,No
+29,Limón,Q21 - Q30,Para compartir entre 2 personas,Sí
+30,Jalapeño,Q16 - Q20,Para compartir entre 2 personas,No
+31,Jalapeño,Q10 - Q15,Para compartir entre 2 personas,No
+32,No especificado,Q21 - Q30,Familiar,Sí
+33,Jalapeño,Q16 - Q20,Familiar,Sí
+34,Limón,Q10 - Q15,Individual,No
+35,Limón,Más de Q30,Individual,Sí
+36,Limón,Q10 - Q15,Para compartir entre 2 personas,Sí
+37,Queso,Q21 - Q30,Familiar,Sí
+38,Salado Tradicional,Más de Q30,Individual,Sí
+39,Caramelo,Q16 - Q20,Familiar,No
+40,Queso,Q10 - Q15,Familiar,No
+41,Picante Chapín,Más de Q30,Para compartir entre 2 personas,No
+42,Limón,Q10 - Q15,Individual,Sí
+43,Queso,Más de Q30,Individual,Sí
+44,Queso,Más de Q30,Familiar,Sí
+45,Picante Chapín,Q16 - Q20,Para compartir entre 2 personas,No
+46,Salado Tradicional,Q21 - Q30,Tamaño fiesta o reunión,Sí
+47,Queso,Menos de Q10,Tamaño fiesta o reunión,Sí
+48,Queso,Q16 - Q20,Individual,No
+49,Caramelo,Q10 - Q15,Familiar,Sí
+50,Queso,Q10 - Q15,Para compartir entre 2 personas,No
+51,Picante Chapín,Q16 - Q20,Para compartir entre 2 personas,Sí
+52,Jalapeño,Menos de Q10,Familiar,Sí
+53,Picante Chapín,Q16 - Q20,Familiar,No
+54,Barbacoa,Q21 - Q30,Individual,No
+55,Barbacoa,Menos de Q10,Individual,Sí
+56,Salado Tradicional,Q10 - Q15,Tamaño fiesta o reunión,No
+57,Limón,Q16 - Q20,Individual,Sí
+58,Salado Tradicional,Q16 - Q20,Familiar,Sí
+59,Limón,Q10 - Q15,Tamaño fiesta o reunión,Sí
+60,Limón,Q10 - Q15,Familiar,Sí
+61,Chocolate,Q10 - Q15,Familiar,Sí
+62,Limón,Menos de Q10,Para compartir entre 2 personas,No
+63,Salado Tradicional,Q10 - Q15,Tamaño fiesta o reunión,Sí
+64,Caramelo,Q16 - Q20,Individual,No
+65,Chocolate,Menos de Q10,Individual,No
+66,Caramelo,Q21 - Q30,Individual,Sí
+67,Picante Chapín,Q16 - Q20,Individual,Sí
+68,Picante Chapín,No especificado,Individual,Sí
+69,Salado Tradicional,Q16 - Q20,Para compartir entre 2 personas,No
+70, CARAMELO ,Q16 - Q20,Individual,Sí
+71,Jalapeño,Q16 - Q20,Para compartir entre 2 personas,Sí
+72, BARBACOA ,Q21 - Q30,Familiar,No
+73,Picante Chapín,Q21 - Q30,Tamaño fiesta o reunión,Sí
+74,Picante Chapín,Q10 - Q15,Tamaño fiesta o reunión,Sí
+75,Queso,Más de Q30,Familiar,No
+76,Jalapeño,Q10 - Q15,Tamaño fiesta o reunión,Sí
+77,Limón,Más de Q30,Tamaño fiesta o reunión,No
+78,Queso,Q21 - Q30,Tamaño fiesta o reunión,No
+79,Chocolate,Q21 - Q30,Individual,No
+80,Limón,Menos de Q10,Individual,Sí
+81,Jalapeño,Menos de Q10,Para compartir entre 2 personas,Sí
+82,Picante Chapín,Q16 - Q20,Tamaño fiesta o reunión,Sí
+83,Barbacoa,Q16 - Q20,Individual,Sí
+84,Dulce,Q21 - Q30,Individual,No
+85,No especificado,Q16 - Q20,Individual,Sí
+86,Limón,Q10 - Q15,Familiar,No
+87,Barbacoa,Q16 - Q20,Para compartir entre 2 personas,Sí
+88,Barbacoa,Q10 - Q15,Individual,No
+89,Barbacoa,Q16 - Q20,Familiar,Sí
+90,Barbacoa,Menos de Q10,Tamaño fiesta o reunión,No
+91,Salado Tradicional,Q16 - Q20,Tamaño fiesta o reunión,Sí
+92,Queso,Q21 - Q30,Tamaño fiesta o reunión,Sí
+93,Salado Tradicional,Q10 - Q15,Para compartir entre 2 personas,Sí
+94,Chocolate,Más de Q30,Tamaño fiesta o reunión,No
+95, DULCE ,Q10 - Q15,Individual,No
+96,Picante Chapín,Q21 - Q30,Individual,Sí
+97,Barbacoa,Q10 - Q15,Tamaño fiesta o reunión,No
+98,Queso,Q10 - Q15,Familiar,Sí
+99,Jalapeño,Menos de Q10,Individual,Sí
+100,Salado Tradicional,Más de Q30,Tamaño fiesta o reunión,Sí
+101,Salado Tradicional,Q16 - Q20,Para compartir entre 2 personas,Sí
+102,Chocolate,Más de Q30,Individual,Sí
+103,Caramelo,Más de Q30,Tamaño fiesta o reunión,Sí
+104,Limón,Menos de Q10,Tamaño fiesta o reunión,No
+105,Picante Chapín,Q10 - Q15,Individual,Sí
+106,Queso,Q21 - Q30,Individual,Sí
+107,Jalapeño,Q21 - Q30,Individual,No
+108,Salado Tradicional,Q10 - Q15,Para compartir entre 2 personas,No
+109,Salado Tradicional,Q21 - Q30,Individual,Sí
+110,Queso,Q16 - Q20,Familiar,No
+111,Queso,Menos de Q10,Individual,Sí
+112,Salado Tradicional,Q16 - Q20,Individual,Sí
+113,Salado Tradicional,Q16 - Q20,Tamaño fiesta o reunión,No
+114,Picante Chapín,Q10 - Q15,Para compartir entre 2 personas,No
+115,Limón,Q16 - Q20,Familiar,No
+116,Jalapeño,Q10 - Q15,Tamaño fiesta o reunión,No
+117,Queso,Q10 - Q15,Individual,Sí
+118,Jalapeño,Q16 - Q20,Individual,Sí
+119,Picante Chapín,Q10 - Q15,Familiar,No
+120,Jalapeño,Menos de Q10,Individual,No
+121,Barbacoa,Q16 - Q20,Para compartir entre 2 personas,No
+122,Barbacoa,Menos de Q10,Para compartir entre 2 personas,No
+123,Barbacoa,Q10 - Q15,Tamaño fiesta o reunión,Sí
+124,Queso,Q16 - Q20,Tamaño fiesta o reunión,Sí
+125,Dulce,Q16 - Q20,Individual,Sí
+126,Barbacoa,Q10 - Q15,Individual,Sí
+127,Picante Chapín,Q10 - Q15,Para compartir entre 2 personas,Sí
+128,Salado Tradicional,Más de Q30,Para compartir entre 2 personas,No
+129,Jalapeño,Q21 - Q30,Individual,Sí
+130,Jalapeño,Q21 - Q30,Familiar,Sí
+131,Barbacoa,Q10 - Q15,Para compartir entre 2 personas,Sí
+132,Barbacoa,Más de Q30,Individual,Sí
+133,Dulce,Q21 - Q30,Para compartir entre 2 personas,Sí
+134,Barbacoa,Q21 - Q30,Familiar,No
+135,Barbacoa,Q10 - Q15,Familiar,No
+136,Jalapeño,Q16 - Q20,Familiar,No
+137,Caramelo,Q21 - Q30,Individual,No
+138,Barbacoa,Menos de Q10,Tamaño fiesta o reunión,Sí
+139,Queso,Q10 - Q15,Tamaño fiesta o reunión,No
+140,Salado Tradicional,Q10 - Q15,Familiar,Sí
+141,Caramelo,Q21 - Q30,Para compartir entre 2 personas,Sí
+142,Chocolate,Q10 - Q15,Familiar,No
+143,Chocolate,Menos de Q10,Familiar,Sí
+144,Limón,Menos de Q10,Tamaño fiesta o reunión,Sí
+145,Queso,Q21 - Q30,Para compartir entre 2 personas,Sí
+146,Barbacoa,Q10 - Q15,Familiar,Sí
+147,Queso,Q16 - Q20,Para compartir entre 2 personas,Sí
+148,Chocolate,Q16 - Q20,Familiar,Sí
+149,Queso,Q21 - Q30,Para compartir entre 2 personas,No
+150,Chocolate,Q10 - Q15,Individual,No
+151, JALAPEÑO ,Q16 - Q20,Para compartir entre 2 personas,Sí
+152,Salado Tradicional,Q21 - Q30,Familiar,Sí
+153,Barbacoa,Q21 - Q30,Para compartir entre 2 personas,No
+154,Limón,Q16 - Q20,Para compartir entre 2 personas,No
+155,Picante Chapín,Q10 - Q15,Familiar,Sí
+156,Picante Chapín,Más de Q30,Tamaño fiesta o reunión,No
+157,Picante Chapín,Q16 - Q20,Individual,No
+158,Salado Tradicional,Menos de Q10,Familiar,No
+159,Jalapeño,Q21 - Q30,Tamaño fiesta o reunión,Sí
+160,Barbacoa,Q21 - Q30,Tamaño fiesta o reunión,Sí
+161,Chocolate,Q16 - Q20,Tamaño fiesta o reunión,Sí
+162,Picante Chapín,Q21 - Q30,Individual,No
+163,Limón,Más de Q30,Familiar,No
+164,Limón,Q21 - Q30,Tamaño fiesta o reunión,Sí
+165,Picante Chapín,Menos de Q10,Familiar,Sí
+166,Dulce,Q21 - Q30,Individual,Sí
+167,Jalapeño,Q16 - Q20,Individual,No
+168,Limón,Q21 - Q30,Para compartir entre 2 personas,No
+169,Chocolate,Q21 - Q30,Para compartir entre 2 personas,Sí
+170,Limón,Q21 - Q30,Familiar,No
+171,Dulce,Q10 - Q15,Tamaño fiesta o reunión,Sí
+172,Caramelo,Q16 - Q20,Individual,Sí
+173,Queso,Más de Q30,Individual,No
+174,Limón,Q16 - Q20,Para compartir entre 2 personas,Sí
+175,Barbacoa,No especificado,Familiar,Sí
+176,Chocolate,Q21 - Q30,Tamaño fiesta o reunión,No
+177,Queso,Menos de Q10,Tamaño fiesta o reunión,No
+178,Queso,Menos de Q10,Para compartir entre 2 personas,No
+179,Salado Tradicional,Q16 - Q20,Individual,No
+180,Dulce,Q21 - Q30,Para compartir entre 2 personas,No
+181,Picante Chapín,Q21 - Q30,Tamaño fiesta o reunión,No
+182,Caramelo,Menos de Q10,Para compartir entre 2 personas,Sí
+183,Barbacoa,Más de Q30,Familiar,No
+184,No especificado,Menos de Q10,Individual,No
+185,Chocolate,Q10 - Q15,Para compartir entre 2 personas,No
+186,Salado Tradicional,Q21 - Q30,Para compartir entre 2 personas,Sí
+187,Chocolate,Q21 - Q30,Individual,Sí
+188,No especificado,Q10 - Q15,Familiar,Sí
+189,Chocolate,Q16 - Q20,Familiar,No
+190, DULCE ,Q16 - Q20,Individual,Sí
+191, BARBACOA ,Más de Q30,Para compartir entre 2 personas,Sí
+192,Picante Chapín,Menos de Q10,Para compartir entre 2 personas,No
+193,Picante Chapín,Menos de Q10,Para compartir entre 2 personas,Sí
+194,Dulce,Q21 - Q30,Familiar,Sí
+195,Queso,Q10 - Q15,Tamaño fiesta o reunión,Sí
+196,Salado Tradicional,Más de Q30,Para compartir entre 2 personas,Sí
+197,Limón,Q10 - Q15,Para compartir entre 2 personas,No
+198,Caramelo,Q16 - Q20,Tamaño fiesta o reunión,Sí
+199,Jalapeño,Q21 - Q30,Para compartir entre 2 personas,No
+200,Jalapeño,Q10 - Q15,Familiar,Sí
+201,Dulce,No especificado,Familiar,No
+202,Jalapeño,Más de Q30,Tamaño fiesta o reunión,No
+203,Jalapeño,Q10 - Q15,Para compartir entre 2 personas,Sí
+204,Chocolate,Q10 - Q15,Tamaño fiesta o reunión,No
+205,Dulce,Q16 - Q20,Para compartir entre 2 personas,No
+206,Salado Tradicional,Más de Q30,Tamaño fiesta o reunión,No
+207, JALAPEÑO ,Q16 - Q20,Tamaño fiesta o reunión,Sí
+208,Barbacoa,Menos de Q10,Familiar,Sí
+209,Picante Chapín,Menos de Q10,Individual,No
+210, BARBACOA ,Menos de Q10,Individual,Sí
+211,Picante Chapín,Más de Q30,Individual,No
+212, QUESO ,Q16 - Q20,Individual,No
+213, PICANTE CHAPÍN ,Q16 - Q20,Para compartir entre 2 personas,No
+214,Barbacoa,Más de Q30,Para compartir entre 2 personas,Sí
+215,Salado Tradicional,Q21 - Q30,Tamaño fiesta o reunión,No
+216,Barbacoa,Q21 - Q30,Para compartir entre 2 personas,Sí
+217,Jalapeño,Q10 - Q15,Individual,No
+218,Barbacoa,Q16 - Q20,Individual,No
+219,Queso,Q16 - Q20,Tamaño fiesta o reunión,No
+220,Queso,Menos de Q10,Individual,No
+221,Picante Chapín,Q21 - Q30,Familiar,No
+222,Caramelo,Q16 - Q20,Para compartir entre 2 personas,Sí
+223,Jalapeño,Q16 - Q20,Tamaño fiesta o reunión,No
+224,Jalapeño,Q10 - Q15,Familiar,No
+225,Picante Chapín,Menos de Q10,Familiar,No
+226,Barbacoa,Q21 - Q30,Tamaño fiesta o reunión,No
+227,Dulce,Q10 - Q15,Familiar,Sí
+228,Dulce,Más de Q30,Individual,Sí
+229,Chocolate,Q10 - Q15,Tamaño fiesta o reunión,Sí
+230,Limón,Q21 - Q30,Individual,No
+231,Picante Chapín,Q21 - Q30,Para compartir entre 2 personas,No
+232,Queso,Q10 - Q15,Individual,No
+233, QUESO ,Q10 - Q15,Tamaño fiesta o reunión,Sí
+234,Salado Tradicional,Menos de Q10,Individual,Sí
+235,Jalapeño,Menos de Q10,Familiar,No
+236,Chocolate,Q16 - Q20,Tamaño fiesta o reunión,No
+237,Salado Tradicional,Q16 - Q20,Familiar,No
+238,Picante Chapín,Q21 - Q30,Familiar,Sí
+239,Limón,Q16 - Q20,Individual,No
+240,Chocolate,Q21 - Q30,Tamaño fiesta o reunión,Sí
+241,Limón,Q21 - Q30,Individual,Sí
+242,Dulce,Menos de Q10,Para compartir entre 2 personas,Sí
+243,Chocolate,Q10 - Q15,Individual,Sí
+244,Chocolate,Más de Q30,Individual,No
+245, SALADO TRADICIONAL ,Q16 - Q20,Individual,Sí
+246,Dulce,Más de Q30,Familiar,Sí
+247,No especificado,Menos de Q10,Tamaño fiesta o reunión,Sí
+248, SALADO TRADICIONAL ,Q21 - Q30,Individual,Sí
+249,No especificado,Q10 - Q15,Para compartir entre 2 personas,No
+250,Queso,Q10 - Q15,Para compartir entre 2 personas,Sí
+251,Salado Tradicional,Menos de Q10,Individual,No
+252,Barbacoa,Más de Q30,Familiar,Sí
+253,Chocolate,Q21 - Q30,Familiar,No
+254,Jalapeño,Más de Q30,Para compartir entre 2 personas,Sí
+255,Chocolate,Más de Q30,Familiar,Sí
+256, LIMÓN ,Q21 - Q30,Tamaño fiesta o reunión,No
+257,Barbacoa,Q10 - Q15,Para compartir entre 2 personas,No
+258,Barbacoa,Menos de Q10,Individual,No
+259,Queso,No especificado,Tamaño fiesta o reunión,No
+260,Chocolate,Q16 - Q20,Para compartir entre 2 personas,Sí
+261,Barbacoa,Menos de Q10,Familiar,No
+262,Chocolate,Q16 - Q20,Individual,Sí
+263,Jalapeño,Q21 - Q30,Tamaño fiesta o reunión,No
+264,Dulce,Más de Q30,Para compartir entre 2 personas,No
+265, PICANTE CHAPÍN ,Q21 - Q30,Individual,Sí
+266,Jalapeño,Más de Q30,Para compartir entre 2 personas,No
+267,Jalapeño,Q21 - Q30,Familiar,No
+268,Jalapeño,Q16 - Q20,Tamaño fiesta o reunión,Sí
+269,Dulce,Q21 - Q30,Tamaño fiesta o reunión,Sí
+270,Limón,Q16 - Q20,Tamaño fiesta o reunión,No
+271,Picante Chapín,Q10 - Q15,Individual,No
+272,Picante Chapín,Q10 - Q15,Tamaño fiesta o reunión,No
+273,Picante Chapín,Más de Q30,Familiar,No
+274,Caramelo,Q10 - Q15,Para compartir entre 2 personas,Sí
+275,Chocolate,Q16 - Q20,Para compartir entre 2 personas,No
+276,Limón,Menos de Q10,Familiar,No
+277,Limón,Q10 - Q15,Tamaño fiesta o reunión,No
+278,Barbacoa,Q16 - Q20,Tamaño fiesta o reunión,No
+279, LIMÓN ,Q10 - Q15,Individual,Sí
+280, LIMÓN ,Menos de Q10,Familiar,Sí
+281,No especificado,Menos de Q10,Familiar,Sí
+282,Limón,Más de Q30,Para compartir entre 2 personas,Sí
+283,Dulce,Q10 - Q15,Individual,No
+284, CARAMELO ,Q21 - Q30,Familiar,Sí
+285, BARBACOA ,Menos de Q10,Para compartir entre 2 personas,No
+286,Jalapeño,Más de Q30,Familiar,Sí
+287, BARBACOA ,Q10 - Q15,Individual,Sí
+288,Dulce,Menos de Q10,Para compartir entre 2 personas,No
+289, LIMÓN ,Menos de Q10,Para compartir entre 2 personas,No
+290,Dulce,Menos de Q10,Familiar,Sí
+291,Chocolate,Q21 - Q30,Para compartir entre 2 personas,No
+292,Salado Tradicional,Q21 - Q30,Para compartir entre 2 personas,No
+293,Caramelo,Más de Q30,Para compartir entre 2 personas,Sí
+294,Queso,Menos de Q10,Familiar,Sí
+295,Dulce,Q10 - Q15,Tamaño fiesta o reunión,No
+296,Picante Chapín,Menos de Q10,Tamaño fiesta o reunión,No
+297,Queso,Q21 - Q30,Individual,No
+298,Salado Tradicional,Menos de Q10,Tamaño fiesta o reunión,Sí
+299,Chocolate,Q16 - Q20,Individual,No
+300,Limón,Q21 - Q30,Tamaño fiesta o reunión,No
+301, DULCE ,Q10 - Q15,Familiar,No
+302,Queso,Más de Q30,Tamaño fiesta o reunión,Sí
+303,Jalapeño,Más de Q30,Individual,No
+304,Barbacoa,Más de Q30,Individual,No
+305, JALAPEÑO ,Más de Q30,Individual,Sí
+306,Salado Tradicional,Q10 - Q15,Familiar,No
+307,Picante Chapín,Menos de Q10,Tamaño fiesta o reunión,Sí
+308,Caramelo,Q10 - Q15,Tamaño fiesta o reunión,Sí
+309,Picante Chapín,No especificado,Familiar,No
+310,No especificado,Q10 - Q15,Para compartir entre 2 personas,Sí
+311,Limón,Menos de Q10,Para compartir entre 2 personas,Sí
+312,Dulce,Menos de Q10,Familiar,No
+313,Limón,Más de Q30,Familiar,Sí
+314, CHOCOLATE ,Q10 - Q15,Familiar,No
+315, CHOCOLATE ,Q16 - Q20,Tamaño fiesta o reunión,Sí
+316, SALADO TRADICIONAL ,Q10 - Q15,Individual,Sí
+317,Picante Chapín,Más de Q30,Familiar,Sí
+318,Caramelo,Q10 - Q15,Para compartir entre 2 personas,No
+319,Salado Tradicional,Más de Q30,Familiar,Sí
+320,Queso,Más de Q30,Para compartir entre 2 personas,No
+321,Picante Chapín,Menos de Q10,Individual,Sí
+322,Caramelo,Q21 - Q30,Tamaño fiesta o reunión,No
+323, QUESO ,Q10 - Q15,Familiar,Sí
+324,Caramelo,Q21 - Q30,Para compartir entre 2 personas,No
+325,Dulce,Más de Q30,Para compartir entre 2 personas,Sí
+326,Chocolate,Menos de Q10,Familiar,No
+327,Dulce,Q10 - Q15,Individual,Sí
+328, JALAPEÑO ,Q10 - Q15,Tamaño fiesta o reunión,Sí
+329,Queso,Menos de Q10,Familiar,No
+330,Caramelo,Q16 - Q20,Para compartir entre 2 personas,No
+331,Caramelo,Q21 - Q30,Familiar,No
+332,Jalapeño,No especificado,Individual,No
+333, BARBACOA ,Q21 - Q30,Tamaño fiesta o reunión,Sí
+334,Caramelo,Q10 - Q15,Tamaño fiesta o reunión,No
+335,No especificado,Q16 - Q20,Para compartir entre 2 personas,No
+336,Queso,Menos de Q10,Para compartir entre 2 personas,Sí
+337, PICANTE CHAPÍN ,Q21 - Q30,Familiar,No
+338,Picante Chapín,Más de Q30,Tamaño fiesta o reunión,Sí
+339,Jalapeño,Más de Q30,Individual,Sí
+340,Limón,Q21 - Q30,Familiar,Sí
+341, CARAMELO ,Q10 - Q15,Para compartir entre 2 personas,No
+342,Chocolate,Q10 - Q15,Para compartir entre 2 personas,Sí
+343, DULCE ,Q10 - Q15,Individual,Sí
+344,Salado Tradicional,No especificado,Familiar,No
+345, JALAPEÑO ,Q16 - Q20,Familiar,Sí
+346, PICANTE CHAPÍN ,Q16 - Q20,Familiar,No
+347, BARBACOA ,Q21 - Q30,Individual,Sí
+348,Dulce,Q16 - Q20,Familiar,No
+349,No especificado,Q16 - Q20,Tamaño fiesta o reunión,No
+350,Jalapeño,Menos de Q10,Tamaño fiesta o reunión,No
+351, BARBACOA ,Menos de Q10,Individual,No
+352,Queso,Más de Q30,Para compartir entre 2 personas,Sí
+353,No especificado,Q10 - Q15,Familiar,No
+354, BARBACOA ,Q10 - Q15,Familiar,No
+355,Limón,No especificado,Tamaño fiesta o reunión,Sí
+356,Barbacoa,No especificado,Tamaño fiesta o reunión,Sí
+357,Dulce,Más de Q30,Tamaño fiesta o reunión,Sí
+358,Salado Tradicional,Menos de Q10,Para compartir entre 2 personas,Sí
+359, CHOCOLATE ,Q16 - Q20,Individual,Sí
+360,Dulce,Q21 - Q30,Familiar,No
+361, PICANTE CHAPÍN ,Q21 - Q30,Familiar,Sí
+362,Caramelo,Más de Q30,Familiar,Sí
+363,Chocolate,Menos de Q10,Para compartir entre 2 personas,Sí
+364, SALADO TRADICIONAL ,Menos de Q10,Para compartir entre 2 personas,Sí
+365,Salado Tradicional,Q21 - Q30,Familiar,No
+366,Caramelo,Q16 - Q20,Tamaño fiesta o reunión,No
+367,No especificado,Q16 - Q20,Individual,No
+368,Caramelo,Q10 - Q15,Familiar,No
+369,Salado Tradicional,Q10 - Q15,Individual,Sí
+370,Dulce,Q16 - Q20,Tamaño fiesta o reunión,Sí
+371, JALAPEÑO ,Más de Q30,Para compartir entre 2 personas,Sí
+372,Salado Tradicional,Menos de Q10,Para compartir entre 2 personas,No
+373, QUESO ,Más de Q30,Familiar,No
+374,Barbacoa,Más de Q30,Tamaño fiesta o reunión,Sí
+375,Caramelo,Q10 - Q15,Individual,Sí
+376,Limón,Más de Q30,Individual,No
+377,Dulce,Q16 - Q20,Para compartir entre 2 personas,Sí
+378,Barbacoa,Menos de Q10,Para compartir entre 2 personas,Sí
+379,No especificado,Q16 - Q20,Tamaño fiesta o reunión,Sí
+380,Dulce,Menos de Q10,Individual,No
+381, QUESO ,Q21 - Q30,Tamaño fiesta o reunión,Sí
+382,Caramelo,Menos de Q10,Familiar,Sí
+383,Chocolate,Más de Q30,Para compartir entre 2 personas,Sí
+384,Jalapeño,Menos de Q10,Tamaño fiesta o reunión,Sí
+385,Chocolate,Menos de Q10,Para compartir entre 2 personas,No
+386,No especificado,Q16 - Q20,Familiar,Sí
+387, PICANTE CHAPÍN ,Q16 - Q20,Tamaño fiesta o reunión,Sí
+388,Dulce,No especificado,Individual,No
+389, BARBACOA ,Q10 - Q15,Para compartir entre 2 personas,Sí
+390, JALAPEÑO ,Q10 - Q15,Familiar,Sí
+391,Queso,No especificado,Familiar,Sí
+392,Salado Tradicional,Más de Q30,Familiar,No
+393, QUESO ,Q10 - Q15,Individual,Sí
+394, LIMÓN ,Q21 - Q30,Familiar,No
+395,Salado Tradicional,Menos de Q10,Familiar,Sí
+396,No especificado,Q10 - Q15,Tamaño fiesta o reunión,Sí
+397, JALAPEÑO ,Q10 - Q15,Familiar,No
+398,Caramelo,Q21 - Q30,Tamaño fiesta o reunión,Sí
+399, QUESO ,Q10 - Q15,Para compartir entre 2 personas,Sí
+400,Salado Tradicional,No especificado,Tamaño fiesta o reunión,Sí
+401,Salado Tradicional,Q21 - Q30,Individual,No
+402, PICANTE CHAPÍN ,Q10 - Q15,Tamaño fiesta o reunión,Sí
+403,Caramelo,Menos de Q10,Tamaño fiesta o reunión,Sí
+404, SALADO TRADICIONAL ,Q21 - Q30,Tamaño fiesta o reunión,Sí
+405, BARBACOA ,Q21 - Q30,Para compartir entre 2 personas,No
+406,Caramelo,Q10 - Q15,Individual,No
+407,Limón,Menos de Q10,Familiar,Sí
+408,Queso,No especificado,Individual,Sí
+409,No especificado,Q21 - Q30,Para compartir entre 2 personas,Sí
+410,Limón,Menos de Q10,Individual,No
+411, BARBACOA ,Q16 - Q20,Para compartir entre 2 personas,Sí
+412,Limón,No especificado,Para compartir entre 2 personas,No
+413, JALAPEÑO ,Q21 - Q30,Tamaño fiesta o reunión,Sí
+414,No especificado,Q21 - Q30,Individual,Sí
+415, CHOCOLATE ,Menos de Q10,Individual,Sí
+416,Dulce,Q10 - Q15,Para compartir entre 2 personas,No
+417, PICANTE CHAPÍN ,Q21 - Q30,Para compartir entre 2 personas,No
+418,Caramelo,Más de Q30,Individual,Sí
+419,Limón,No especificado,Individual,No
+420, PICANTE CHAPÍN ,Q21 - Q30,Para compartir entre 2 personas,Sí
+421,No especificado,Menos de Q10,Individual,Sí
+422,Chocolate,Menos de Q10,Tamaño fiesta o reunión,Sí
+423,Limón,Más de Q30,Para compartir entre 2 personas,No
+424,Queso,No especificado,Familiar,No
+425,Chocolate,Más de Q30,Tamaño fiesta o reunión,Sí
+426, QUESO ,Q16 - Q20,Individual,Sí
+427,No especificado,Q16 - Q20,Para compartir entre 2 personas,Sí
+428, CARAMELO ,Q16 - Q20,Para compartir entre 2 personas,Sí
+429, SALADO TRADICIONAL ,Q10 - Q15,Familiar,No
+430,Limón,No especificado,Para compartir entre 2 personas,Sí
+431, DULCE ,Q16 - Q20,Familiar,Sí
+432,Dulce,Q16 - Q20,Tamaño fiesta o reunión,No
+433,Limón,Más de Q30,Tamaño fiesta o reunión,Sí
+434, QUESO ,Menos de Q10,Familiar,Sí
+435, SALADO TRADICIONAL ,Q21 - Q30,Para compartir entre 2 personas,Sí
+436, LIMÓN ,Q21 - Q30,Familiar,Sí
+437, JALAPEÑO ,Q10 - Q15,Individual,No
+438,Jalapeño,No especificado,Individual,Sí
+439, QUESO ,Q16 - Q20,Tamaño fiesta o reunión,Sí
+440, QUESO ,Menos de Q10,Para compartir entre 2 personas,No
+441, PICANTE CHAPÍN ,Menos de Q10,Para compartir entre 2 personas,Sí
+442,Dulce,No especificado,Para compartir entre 2 personas,Sí
+443,Picante Chapín,Más de Q30,Individual,Sí
+444,No especificado,Q10 - Q15,Individual,No
+445, QUESO ,Q16 - Q20,Familiar,No
+446,Jalapeño,Más de Q30,Familiar,No
+447,Limón,No especificado,Familiar,No
