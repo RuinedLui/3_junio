@@ -37,7 +37,7 @@ dim_geo.insert(0, "GeografiaID", dim_geo.index + 1)
 df = df.merge(dim_geo, on=["Departamento","Municipio"], how="left")
 
 # ─────────────────────────────────────────────
-# 4. DIM_DEMOGRAFIA (Corregido el error de la letra 'd')
+# 4. DIM_DEMOGRAFIA 
 # ─────────────────────────────────────────────
 dim_dem = df[["RangoEdad","Genero","Ocupacion"]].drop_duplicates().reset_index(drop=True)
 dim_dem.insert(0, "DemografiaID", dim_dem.index + 1)
@@ -103,7 +103,7 @@ dim_jugador = pd.DataFrame({"JugadorID": jugadores_unicos.index + 1,
                              "Jugador_Nombre": jugadores_unicos.values})
 
 # ─────────────────────────────────────────────
-# 9. DIM_MARKETING_MUNDIAL (Agregadas las 2 columnas faltantes)
+# 9. DIM_MARKETING_MUNDIAL 
 # ─────────────────────────────────────────────
 mkt_cols = ["SeleccionApoya", "CompraDisenoSeleccion", "SeleccionInfluyeCompra", 
             "TipoPublicidadAtractiva","PromocionPreferida",
